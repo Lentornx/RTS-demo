@@ -1,0 +1,1612 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kamil/OneDrive/Pulpit/RTS-demo/demo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54132
+Successfully changed project path to: C:/Users/kamil/OneDrive/Pulpit/RTS-demo/demo
+C:/Users/kamil/OneDrive/Pulpit/RTS-demo/demo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28660] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 788513595 [EditorId] 788513595 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-71PQ3G3T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28660] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 788513595 [EditorId] 788513595 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-71PQ3G3T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 31.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kamil/OneDrive/Pulpit/RTS-demo/demo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.6109
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015138 seconds.
+- Loaded All Assemblies, in  0.466 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.339 seconds
+Domain Reload Profiling: 799ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (133ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.107 seconds
+Refreshing native plugins compatible for Editor in 16.90 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.763 seconds
+Domain Reload Profiling: 1853ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (766ms)
+		LoadAssemblies (584ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (251ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (763ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 19.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4412 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (68.6 KB). Loaded Objects now: 4859.
+Memory consumption went from 144.3 MB to 144.3 MB.
+Total: 4.044200 ms (FindLiveObjects: 0.329100 ms CreateObjectMapping: 0.366600 ms MarkObjects: 3.214500 ms  DeleteObjects: 0.132800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8837.728645 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/CollisionObjectExtensions.cs
+  artifactKey: Guid(47e3ba7f1f3359a4e8797318233a45d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/CollisionObjectExtensions.cs using Guid(47e3ba7f1f3359a4e8797318233a45d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6aeaeef0b80e03f2435b1e882b18496a') in 0.093157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/TypeExtensions.cs
+  artifactKey: Guid(f206296328d471841b0c0031f0f2a5cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/TypeExtensions.cs using Guid(f206296328d471841b0c0031f0f2a5cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd8e8686a81a940f3320638cecdab7fe') in 0.005883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TutorialInfo/Icons/Mobile 2D.png
+  artifactKey: Guid(eda43ba821d75d046a45209bde150047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Icons/Mobile 2D.png using Guid(eda43ba821d75d046a45209bde150047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cde356b3aa0179fbfd00fdbf57f4eaf') in 0.074702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/leaves.png
+  artifactKey: Guid(0a361253af18b4f4bab0cf1a793533d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/leaves.png using Guid(0a361253af18b4f4bab0cf1a793533d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72b115c323aec73d0b328d8bb2e1ce72') in 0.037080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/DataCompression.cs
+  artifactKey: Guid(7022995a443f0dc48974a3034eb4b4d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/DataCompression.cs using Guid(7022995a443f0dc48974a3034eb4b4d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fb5ba0bce3b433c15979727be7e58c6') in 0.006003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/SortingMode.cs
+  artifactKey: Guid(b5abb1a5e2d79034c8cff6e5348085f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/SortingMode.cs using Guid(b5abb1a5e2d79034c8cff6e5348085f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b60d6c9583d24ff625493ff561e64140') in 0.007082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/GUI/GuiScopedBackgroundColor.cs
+  artifactKey: Guid(0c1abf941a68a144184b329cdc63c678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/GUI/GuiScopedBackgroundColor.cs using Guid(0c1abf941a68a144184b329cdc63c678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3efdae2cf4b9bea9a53d741a68721458') in 0.006848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperCustomProperties.cs
+  artifactKey: Guid(60eadddeab0d66d4084aca14d14cbcfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperCustomProperties.cs using Guid(60eadddeab0d66d4084aca14d14cbcfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60d113f9a6c5d5e30a634ed598fdf645') in 0.007818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Helpers/NamedColors.cs
+  artifactKey: Guid(a31a4a8fbeb72ce48be0f17a6b54d5a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Helpers/NamedColors.cs using Guid(a31a4a8fbeb72ce48be0f17a6b54d5a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '309c2a5fc31cad8de381332235f42a77') in 0.008525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/ReadOnlyAttribute.cs
+  artifactKey: Guid(0424d2c9a5b4a8d40b2d31b1302332cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/ReadOnlyAttribute.cs using Guid(0424d2c9a5b4a8d40b2d31b1302332cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcbb02222d035c3001e0a2781113a0da') in 0.007293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/StringExtensions.cs
+  artifactKey: Guid(6f6a7de8e56b00e4aa81837930516fad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/StringExtensions.cs using Guid(6f6a7de8e56b00e4aa81837930516fad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b67e410a0ca7c87fef6a6dbcc4ec300') in 0.007487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperImageLayer.cs
+  artifactKey: Guid(d56977c501f28174fbe67cb69197cddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperImageLayer.cs using Guid(d56977c501f28174fbe67cb69197cddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3cdcad2b18baf34ed6de263220f5081') in 0.006833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/seanba.super-tiled2unity.Editor.asmdef
+  artifactKey: Guid(18495c2ae79d2b14aa9ff8cb6556ffd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/seanba.super-tiled2unity.Editor.asmdef using Guid(18495c2ae79d2b14aa9ff8cb6556ffd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20089b175d490a1cc2ed15e490ef8f6e') in 0.008560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAssetWorld.cs
+  artifactKey: Guid(d6198d56f2f7d004fae311f2554dccd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAssetWorld.cs using Guid(d6198d56f2f7d004fae311f2554dccd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4898e38142268ab45c10ffead609cd0') in 0.008659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/GameObjectExtensions.cs
+  artifactKey: Guid(4964656a27e3d1a4e95232b9e1080913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/GameObjectExtensions.cs using Guid(4964656a27e3d1a4e95232b9e1080913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d71c82463bd7183106620935c971de1') in 0.007820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/CollisionClipper.cs
+  artifactKey: Guid(a9d0aa18280129d42883e9ced3a65733) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/CollisionClipper.cs using Guid(a9d0aa18280129d42883e9ced3a65733) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56692181675f9fae1b73930f52591f86') in 0.007836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(96e98bffd05413f489cd9851fc862d1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(96e98bffd05413f489cd9851fc862d1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88373d872608f4eb25162e9c977c7ffc') in 0.007637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/DataEncoding.cs
+  artifactKey: Guid(9eff9209c4ab374478c9fc12073c865b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/DataEncoding.cs using Guid(9eff9209c4ab374478c9fc12073c865b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '865e6d68958ce5f241dceb825471ab4e') in 0.005810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/TileIdMath.cs
+  artifactKey: Guid(50241b6cdd259d246baf774ba9a7df71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/TileIdMath.cs using Guid(50241b6cdd259d246baf774ba9a7df71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b28360b92e00871cac440dcbc1ea415f') in 0.006378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/rabbit.png
+  artifactKey: Guid(994dcbcb394a58140ba4f4f29b1279c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/rabbit.png using Guid(994dcbcb394a58140ba4f4f29b1279c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd18d273c8da45bce5911db7adf94bcdc') in 0.035256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/AssetPath.cs
+  artifactKey: Guid(5d967b1ed0470b24d8fb429504a3632b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/AssetPath.cs using Guid(5d967b1ed0470b24d8fb429504a3632b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4169e79dd21039245c70d359e9bbe1e5') in 0.007781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/AnimationBuilder.cs
+  artifactKey: Guid(aa74cfd34bf503844a16a6affed8d642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/AnimationBuilder.cs using Guid(aa74cfd34bf503844a16a6affed8d642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c6ca2451cf700af0010fd19ca3c4105') in 0.007032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/AppDomainExtensions.cs
+  artifactKey: Guid(bf2900f67afa63a4cafd70a0841a9bf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/AppDomainExtensions.cs using Guid(bf2900f67afa63a4cafd70a0841a9bf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b10062d3285ee1da0950a64115f78b16') in 0.007697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/CustomEditors/SuperWorldEditor.cs
+  artifactKey: Guid(f2472b7d543c70145a75416bd4768997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/CustomEditors/SuperWorldEditor.cs using Guid(f2472b7d543c70145a75416bd4768997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96b1deabafa15a275cb5575f0581ec6a') in 0.006358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperGroupLayer.cs
+  artifactKey: Guid(393d5a9eb0cb54249b70807954510fb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperGroupLayer.cs using Guid(393d5a9eb0cb54249b70807954510fb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acee7eee01fe51bcc1e40d2b09aef6db') in 0.009203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/TilePolygon.cs
+  artifactKey: Guid(2b962a836d2d3af4ca6dc30fd266397b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/TilePolygon.cs using Guid(2b962a836d2d3af4ca6dc30fd266397b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5474cb6e31d37feb09333eb98d4dfae3') in 0.004673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/unit_basic.cs
+  artifactKey: Guid(dcb4fdb65f7b3f9419965d9228a330df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/unit_basic.cs using Guid(dcb4fdb65f7b3f9419965d9228a330df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c251c9133ff31e3836eb1bcdbf75e28') in 0.004616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperTileset.cs
+  artifactKey: Guid(5a03e13c5227d20419a9bbf5f864fd94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperTileset.cs using Guid(5a03e13c5227d20419a9bbf5f864fd94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1efe2b347b0c8399b1fb94a74028cd6e') in 0.008183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/SuperMapExtensions.cs
+  artifactKey: Guid(68d3b5d052bf8454a97430d71e1e2114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/SuperMapExtensions.cs using Guid(68d3b5d052bf8454a97430d71e1e2114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6e6274bb14e95aea0d6819118a92d00') in 0.008794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/ClickTracker.cs
+  artifactKey: Guid(5783ec4586a01794ca2ba3f90c60a7ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/ClickTracker.cs using Guid(5783ec4586a01794ca2ba3f90c60a7ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '206f3b7b5684c3a4d958688ca51edeb1') in 0.007545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAsset.cs
+  artifactKey: Guid(fb5e75dfa90548b46af28b1c2069b2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAsset.cs using Guid(fb5e75dfa90548b46af28b1c2069b2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f618c8212f86dd25e237fbee4fd8dbc') in 0.006665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/VersionCheck/seanba.super-tiled2unity.version.asmdef
+  artifactKey: Guid(96db36e2a1da30b4b8282bafa72daf3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/VersionCheck/seanba.super-tiled2unity.version.asmdef using Guid(96db36e2a1da30b4b8282bafa72daf3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d469fa045329b51e0a92dcb5be12511') in 0.006051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/FillMode.cs
+  artifactKey: Guid(7165080dff7a5954d926bc1f22bcd293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/FillMode.cs using Guid(7165080dff7a5954d926bc1f22bcd293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fbf7be1b3cd98edcf167f3aaa0d94a1') in 0.006802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Helpers/ReadOnlyPropertyDrawer.cs
+  artifactKey: Guid(5060d5a3bd7fd87488fe7bad5dd977df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Helpers/ReadOnlyPropertyDrawer.cs using Guid(5060d5a3bd7fd87488fe7bad5dd977df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '534552329ce96abf0d89df150f208a4c') in 0.007963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperColliderComponent.cs
+  artifactKey: Guid(b236e958402f8514f8685b9a9db9b715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperColliderComponent.cs using Guid(b236e958402f8514f8685b9a9db9b715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb5e1f20f9f72d3f6af0be88d8a2192d') in 0.008831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/CustomImporters/CustomTmxImporter.cs
+  artifactKey: Guid(07796d8e64535fc41851ffcb6f022255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/CustomImporters/CustomTmxImporter.cs using Guid(07796d8e64535fc41851ffcb6f022255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c76a273b449307ba1e35a3ce2940d2c') in 0.006817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/camera_movement.cs
+  artifactKey: Guid(b2797a026108ecc408668a837c1bc20b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/camera_movement.cs using Guid(b2797a026108ecc408668a837c1bc20b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9e14efc32864bec8a6652134972666a') in 0.009025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAssetTemplate.cs
+  artifactKey: Guid(6119748dbc0e7b04ab6829cb5022cb62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAssetTemplate.cs using Guid(6119748dbc0e7b04ab6829cb5022cb62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea59682da3c74bbd31d9ec4838e6e45b') in 0.007640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/StringConstants.cs
+  artifactKey: Guid(6327b45087f5beb4da4569eddb17253d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/StringConstants.cs using Guid(6327b45087f5beb4da4569eddb17253d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59e5c240ef1aab1fc5b512a8d8f1eb09') in 0.008848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/TileObjectAnimator.cs
+  artifactKey: Guid(ae16ce366dabdcc49850485b19178a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/TileObjectAnimator.cs using Guid(ae16ce366dabdcc49850485b19178a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a13bbf1c129100c0ee58d0caaa9b7928') in 0.009423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/GUI/GuiScopedIndent.cs
+  artifactKey: Guid(c8a44729ffe16324ca7e0f047dc5e079) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/GUI/GuiScopedIndent.cs using Guid(c8a44729ffe16324ca7e0f047dc5e079) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a8ff0cbd0ee5a9ab2d8edbfc6ec91fa') in 0.008105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperLayer.cs
+  artifactKey: Guid(47723350f28da9944880a25bfc22977a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperLayer.cs using Guid(47723350f28da9944880a25bfc22977a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '010101761eb73d4822e77e9730955270') in 0.007370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Config/ST2U Settings.asset
+  artifactKey: Guid(80ddb296022b52a49b10558f444eb1bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Config/ST2U Settings.asset using Guid(80ddb296022b52a49b10558f444eb1bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b14ff0ed21beb6e7383aac166c59d23') in 0.026826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperTilesAsObjectsTilemap.cs
+  artifactKey: Guid(b94a47f6431c20c4aa4d7a5dc43df81a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperTilesAsObjectsTilemap.cs using Guid(b94a47f6431c20c4aa4d7a5dc43df81a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b05ca5153aa74429a295ee0e0ca7ae8') in 0.009593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/DrawOrder.cs
+  artifactKey: Guid(7cfa0af538223994d88db7bc74b459e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/DrawOrder.cs using Guid(7cfa0af538223994d88db7bc74b459e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1cddaaedd2e7040b6401ac1f8381b42') in 0.006386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Attributes/AutoCustomTmxImporterAttribute.cs
+  artifactKey: Guid(e774281be74f34043b31411b1383f170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Attributes/AutoCustomTmxImporterAttribute.cs using Guid(e774281be74f34043b31411b1383f170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '692cc47a6beb088e496826b8da56d8db') in 0.007174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/CollisionShapeType.cs
+  artifactKey: Guid(eada5bcf5cb1b88449a085d2773c1e5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/CollisionShapeType.cs using Guid(eada5bcf5cb1b88449a085d2773c1e5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56731c60ed208f93f4ec9e3658defca0') in 0.006232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/ObjectAlignment.cs
+  artifactKey: Guid(16208a0aba30c484ab87f1d1a0e7a963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/ObjectAlignment.cs using Guid(16208a0aba30c484ab87f1d1a0e7a963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79d320c5ad4e6c55b37476e7a0b4dd2d') in 0.008189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/ObjectTemplate.cs
+  artifactKey: Guid(39aff3970f857ec4a8823c0291cba854) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/ObjectTemplate.cs using Guid(39aff3970f857ec4a8823c0291cba854) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85cf10396c4c4dd55bc7d00f69a394f2') in 0.009131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Circle.png
+  artifactKey: Guid(b5bee12bdf72fc548920723995eba982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Circle.png using Guid(b5bee12bdf72fc548920723995eba982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e742c4f3bdadd78d4373967bfb74f37') in 0.046422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporter.ImageLayer.cs
+  artifactKey: Guid(eaf3a34fd04f5c848a52a87cc760bf0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporter.ImageLayer.cs using Guid(eaf3a34fd04f5c848a52a87cc760bf0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2623cbb053fa40f8747a7e4dcd4ec851') in 0.007642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Settings/TypePrefabReplacement.cs
+  artifactKey: Guid(1a3413fe0dedc934a9749faafcfa0077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Settings/TypePrefabReplacement.cs using Guid(1a3413fe0dedc934a9749faafcfa0077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac3e7069cc1d09270937ef08768e986c') in 0.006936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporter.cs
+  artifactKey: Guid(1fa25d03934ea624a82bf2fcee6f0873) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporter.cs using Guid(1fa25d03934ea624a82bf2fcee6f0873) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb96b505a78e3ed93e18c29ff7d20e81') in 0.007609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Loaders/SuperGroupLayerLoader.cs
+  artifactKey: Guid(7519185f6242f80418c1f98739b75f79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Loaders/SuperGroupLayerLoader.cs using Guid(7519185f6242f80418c1f98739b75f79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99778ceafaa5320a697d1de292aaa392') in 0.007301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporter.ObjectLayer.cs
+  artifactKey: Guid(c3d050ab15e05e64485232b07c377d1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporter.ObjectLayer.cs using Guid(c3d050ab15e05e64485232b07c377d1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c628366ee10b6426e3fe49ca0a3a338a') in 0.008862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Icons/world-file-icon.png
+  artifactKey: Guid(f7af46740b1964f4ab9520d050bdde12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Icons/world-file-icon.png using Guid(f7af46740b1964f4ab9520d050bdde12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4505f4bfe5898190600d7160ad55c720') in 0.038627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Postprocessors/SuperTexturePostprocessor.cs
+  artifactKey: Guid(56b6d48e2f3d90d47b9d0b396347b6e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Postprocessors/SuperTexturePostprocessor.cs using Guid(56b6d48e2f3d90d47b9d0b396347b6e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8321ea5c1e0185fa3bcbac5b692eddc5') in 0.008667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Icons/tx-file-icon.png
+  artifactKey: Guid(8917742d33b8e744f91ec41c4dbb44bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Icons/tx-file-icon.png using Guid(8917742d33b8e744f91ec41c4dbb44bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56ee4ad40c6494bdbf8b72ba6c120fb6') in 0.039515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Sprite/SpriteRectsManager.cs
+  artifactKey: Guid(4823b0d123593a342975e4eb9568a8bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Sprite/SpriteRectsManager.cs using Guid(4823b0d123593a342975e4eb9568a8bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9728fea89697a37a5f576ee368fa27a') in 0.010668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/SuperImportContext.cs
+  artifactKey: Guid(5c73831093080f34282b5e25dbe4b498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/SuperImportContext.cs using Guid(5c73831093080f34282b5e25dbe4b498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac842b5d6626bed2b6a3ea94662dd0f8') in 0.008930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Settings/CustomPropertiesWindow.cs
+  artifactKey: Guid(d7b4491335815674c98267f0c92f634c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Settings/CustomPropertiesWindow.cs using Guid(d7b4491335815674c98267f0c92f634c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6f00b26e6cf8382748eed010856e10f') in 0.008805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Loaders/SuperObjectLayerLoader.cs
+  artifactKey: Guid(aefa98014cf08f64683d6b99e200497c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Loaders/SuperObjectLayerLoader.cs using Guid(aefa98014cf08f64683d6b99e200497c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c3fcfa448ff3f21c2faffaac20bcc5d') in 0.007838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Settings/LayerMaterialMatch.cs
+  artifactKey: Guid(af7db2f22a062814992acbee2628e7ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Settings/LayerMaterialMatch.cs using Guid(af7db2f22a062814992acbee2628e7ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46c9c631fd94ab40e352020684b6bf08') in 0.008100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Postprocessors/SuperAssetDependencyPostprocessor.cs
+  artifactKey: Guid(a5375898aae950549a1f40d3bd696272) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Postprocessors/SuperAssetDependencyPostprocessor.cs using Guid(a5375898aae950549a1f40d3bd696272) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '391e3613faaec12effe3ee7363dc8392') in 0.007125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporter.GroupLayer.cs
+  artifactKey: Guid(8e23608685274fc4d87ad50a12608833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporter.GroupLayer.cs using Guid(8e23608685274fc4d87ad50a12608833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8228fdfd5477a3c530fa204590f09515') in 0.005860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/MapOrientation.cs
+  artifactKey: Guid(f8a20f21322c62e409c23bb7749b3164) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/MapOrientation.cs using Guid(f8a20f21322c62e409c23bb7749b3164) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '033c7abe6da74c59f28411b46172faa6') in 0.007151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(9266273b8f123004195741f969177dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(9266273b8f123004195741f969177dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66f94a49f0d1e23635241c3f8ddf654e') in 0.029535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/carrot 1.png
+  artifactKey: Guid(387a164402ad1ab44b3d145f93d5949d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/carrot 1.png using Guid(387a164402ad1ab44b3d145f93d5949d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fabd54b8a16bf97410269421b20a5a8') in 0.032132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/LayerSorterHelper.cs
+  artifactKey: Guid(31eeb24abf22df043909643826c9c1a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/LayerSorterHelper.cs using Guid(31eeb24abf22df043909643826c9c1a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ff3db6c2166242efb16a63a7ca85223') in 0.014503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/MapRenderOrder.cs
+  artifactKey: Guid(18dc0ed4c95f0ac4195a07dd7c77366d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/MapRenderOrder.cs using Guid(18dc0ed4c95f0ac4195a07dd7c77366d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e727dfcb3d6e77791bf00682a4cb66c5') in 0.017529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001157 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Helpers/UniqueNameifier.cs
+  artifactKey: Guid(995ac39948f0efc40a7cc75621ac6fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Helpers/UniqueNameifier.cs using Guid(995ac39948f0efc40a7cc75621ac6fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1ad4ae3923d1bef7487546343a91e1c') in 0.012999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/CollisionObject.cs
+  artifactKey: Guid(452ae7570278dd340879b591666930cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/CollisionObject.cs using Guid(452ae7570278dd340879b591666930cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7d1ff435726f13a56a571f4804c3cea') in 0.010915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/GridOrientation.cs
+  artifactKey: Guid(c2683df667a698f4fbc366e679e517b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/GridOrientation.cs using Guid(c2683df667a698f4fbc366e679e517b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e237cfb55b76f62722006b2d77b67e36') in 0.009468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/CustomEditors/SuperColliderComponentEditor.cs
+  artifactKey: Guid(9ee031c51465665449ce923090251b38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/CustomEditors/SuperColliderComponentEditor.cs using Guid(9ee031c51465665449ce923090251b38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4afa4867d73cf328a82bdb49db52b827') in 0.011487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TxAssetImporterEditor.cs
+  artifactKey: Guid(8f8fe4d5047b6af429cc3337027f12ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TxAssetImporterEditor.cs using Guid(8f8fe4d5047b6af429cc3337027f12ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6553565426939fe03676dbdc56564c33') in 0.011475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/Collider2DExtensions.cs
+  artifactKey: Guid(662a1350b1985c04daa5b465599a1866) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/Collider2DExtensions.cs using Guid(662a1350b1985c04daa5b465599a1866) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a23d36ed581053e1d8693a7777e163a2') in 0.007340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Math/ColliderFactory.cs
+  artifactKey: Guid(a583b223a57da264e99d3334c086fa5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Math/ColliderFactory.cs using Guid(a583b223a57da264e99d3334c086fa5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f58fe15b930b0fb297e6e70b97712a9b') in 0.008176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TsxAssetImporter.cs
+  artifactKey: Guid(cc34d0f3dc257a442819830b408c5322) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TsxAssetImporter.cs using Guid(cc34d0f3dc257a442819830b408c5322) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdb66fda20db659e95dc812942b85dd5') in 0.008081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAssetTileset.cs
+  artifactKey: Guid(83a849530c0449a4b8dc4000b60e4acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAssetTileset.cs using Guid(83a849530c0449a4b8dc4000b60e4acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d30ca8e78a3155bf18a2a9dcb0e6ab9') in 0.010970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/LayerIgnoreMode.cs
+  artifactKey: Guid(eb0cf98038b6a2f45b2d8ab7888355e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/LayerIgnoreMode.cs using Guid(eb0cf98038b6a2f45b2d8ab7888355e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4582adfbbf202d51adfdd90713778d2b') in 0.007880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/CustomEditors/ColliderGizmos.cs
+  artifactKey: Guid(1de2e16268489dc43b1619977f7ea0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/CustomEditors/ColliderGizmos.cs using Guid(1de2e16268489dc43b1619977f7ea0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9e50c5bebd5ba14fea8e37c4c7dd8f7') in 0.007174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/CollisionClipperKey.cs
+  artifactKey: Guid(dc920922afa553741bd0f227f6835ecf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/CollisionClipperKey.cs using Guid(dc920922afa553741bd0f227f6835ecf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb7e0da62160fd952012f9797db2cbfb') in 0.009954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAssetSettings.cs
+  artifactKey: Guid(87f5be8f60f26a3439d0e9f9e79d57d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAssetSettings.cs using Guid(87f5be8f60f26a3439d0e9f9e79d57d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5ad127b80cd3160bcf27021f0b6f973') in 0.009110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/package.json
+  artifactKey: Guid(839c4460454d8ca43bbf917f548d5bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/package.json using Guid(839c4460454d8ca43bbf917f548d5bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d8184f37b3155f5194aa5e9ace04686') in 0.007416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/FlipFlags.cs
+  artifactKey: Guid(5c4de9f8348e38d439656da2e44981d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/FlipFlags.cs using Guid(5c4de9f8348e38d439656da2e44981d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '076e13400e0ba732aec84d1f891d8b51') in 0.008764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperObject.cs
+  artifactKey: Guid(dee00135f58173948b1f4e932384fb89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperObject.cs using Guid(dee00135f58173948b1f4e932384fb89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b69bdf30c81610f2f7c5d2841c76b846') in 0.008738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperMap.cs
+  artifactKey: Guid(9afdeaae1bb27d6418d5d8cd5165faed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperMap.cs using Guid(9afdeaae1bb27d6418d5d8cd5165faed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '614d340ebe4bc48d0af14c84605a5d05') in 0.008238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/MultiValueDictionary.cs
+  artifactKey: Guid(7a4007b337ab2d242aefb806d1534b68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/MultiValueDictionary.cs using Guid(7a4007b337ab2d242aefb806d1534b68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4d1112251c608771ba64f07f88a6d25') in 0.009039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Windows/RecursiveAssetDependencyTracker.cs
+  artifactKey: Guid(717c33600349cec4c908deb5d2b72b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Windows/RecursiveAssetDependencyTracker.cs using Guid(717c33600349cec4c908deb5d2b72b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04025e0260fe42fd1ddc78046b826785') in 0.008427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/PolylineReduction.cs
+  artifactKey: Guid(1fd845b7a7d07af4ca4aad8eb4ec21d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/PolylineReduction.cs using Guid(1fd845b7a7d07af4ca4aad8eb4ec21d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af2043040e76f1fc2e56e45aa0999110') in 0.008338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Extensions/StringExtensions.cs
+  artifactKey: Guid(e034c09b01f17df41abf079d5b4cf400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Extensions/StringExtensions.cs using Guid(e034c09b01f17df41abf079d5b4cf400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b40aca07728ae7585303a5f517a340c') in 0.010009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-00.png
+  artifactKey: Guid(ca712c4c891c0cf46b952232e36416c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-00.png using Guid(ca712c4c891c0cf46b952232e36416c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3bb8c7a50c9a13296380acf30274fc0') in 0.039567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/SuperBadTile.cs
+  artifactKey: Guid(e31888f619fa33c41921e95e67e96612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/SuperBadTile.cs using Guid(e31888f619fa33c41921e95e67e96612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22a662ba10cf9445a8b8e6515bacf2dd') in 0.008431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-03.png
+  artifactKey: Guid(61e1ef0b70b79694598e593358b1992b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-03.png using Guid(61e1ef0b70b79694598e593358b1992b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d04b68931d9b80b7d1dcc71407c25d6') in 0.037952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Windows/SuperPackageExport.cs
+  artifactKey: Guid(d8b822547c81a4a4d82c3eed07645e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Windows/SuperPackageExport.cs using Guid(d8b822547c81a4a4d82c3eed07645e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad71105f0d78fa74431059a9380e2e76') in 0.008911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/Dict.cs
+  artifactKey: Guid(53df28af8cabc3442afe3fa83ca94731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/Dict.cs using Guid(53df28af8cabc3442afe3fa83ca94731) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ad7ec0c4ac8be6392ff01d7b0227f02') in 0.006051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/MeshUtils.cs
+  artifactKey: Guid(150047422c973bd4fa52808c8241a0d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/MeshUtils.cs using Guid(150047422c973bd4fa52808c8241a0d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2622f22fe9850bd573262398fd82663') in 0.011622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/Tess.cs
+  artifactKey: Guid(83aa7c1c1df6b9f41ba39f57964340a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/Tess.cs using Guid(83aa7c1c1df6b9f41ba39f57964340a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5913ef73f69df791768a824171ac877') in 0.008247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Math/MatrixUtils.cs
+  artifactKey: Guid(d422f78efde64c346807de8aceedc871) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Math/MatrixUtils.cs using Guid(d422f78efde64c346807de8aceedc871) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93d00a1621709bca8f13f7f3a93b7925') in 0.008026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/Triangulator.cs
+  artifactKey: Guid(fa0287b5b3e3007418b2cad3c6b8b6ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/Triangulator.cs using Guid(fa0287b5b3e3007418b2cad3c6b8b6ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77e6a541358e19d0ae035f3068c227eb') in 0.009793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Tiles/BadTileSpriteProvider.cs
+  artifactKey: Guid(2f81b9cd0c9a2da4b9dc9b4c25308dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Tiles/BadTileSpriteProvider.cs using Guid(2f81b9cd0c9a2da4b9dc9b4c25308dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1033d5999d8e4b097bc48d614c0dfafa') in 0.007499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/RendererSorter.cs
+  artifactKey: Guid(c6c9fb728bc3c2944a50e9886fac8083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/RendererSorter.cs using Guid(c6c9fb728bc3c2944a50e9886fac8083) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f9cb22d78128856906bb6f6cecb15da') in 0.007942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Path/ChDir.cs
+  artifactKey: Guid(e8f1b31d17390bc44945f68f29b90c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Path/ChDir.cs using Guid(e8f1b31d17390bc44945f68f29b90c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1038423aea26b265198c86581aa15d96') in 0.007518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/StreamExtensions.cs
+  artifactKey: Guid(e590658734d665b40ba3b84ccb7cd59d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/StreamExtensions.cs using Guid(e590658734d665b40ba3b84ccb7cd59d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08c46ec0913850048128efe954d3d750') in 0.007931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TsxAssetImporterEditor.cs
+  artifactKey: Guid(00a8cd6901ddc6b44bebdeadf6163d63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TsxAssetImporterEditor.cs using Guid(00a8cd6901ddc6b44bebdeadf6163d63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be95dad47a80b63a03394080813f8451') in 0.007460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/SuperTileExtensions.cs
+  artifactKey: Guid(0fafb9d96d028914e9ebc2702e268cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/SuperTileExtensions.cs using Guid(0fafb9d96d028914e9ebc2702e268cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47bd01167e9585f841e22c35a76536b1') in 0.007528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Extensions/EnumerableExtensions.cs
+  artifactKey: Guid(c5019073c990d5440b63c76328505dc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Extensions/EnumerableExtensions.cs using Guid(c5019073c990d5440b63c76328505dc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74d625f0d39d3e50934aba34e3c986cd') in 0.008313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/SuperImporter.cs
+  artifactKey: Guid(997c350d479469b40a6a61dab58acbf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/SuperImporter.cs using Guid(997c350d479469b40a6a61dab58acbf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95a63320f950465ca7dbf361379210d8') in 0.006883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Config/SuperTiled2Unity_Config.cs
+  artifactKey: Guid(73bf4b0030257904199f741dbf1abcdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Config/SuperTiled2Unity_Config.cs using Guid(73bf4b0030257904199f741dbf1abcdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8a92a1a35fa881ecd33156080b16d76') in 0.008016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/seanba.super-tiled2unity.asmdef
+  artifactKey: Guid(06e56dbbb8dec4d43a0b85b0fe0dd0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/seanba.super-tiled2unity.asmdef using Guid(06e56dbbb8dec4d43a0b85b0fe0dd0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94d1862505a8c7bf2157539851c61a71') in 0.007028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Loaders/TilesetLoader.cs
+  artifactKey: Guid(2c105d7184cafec4ba0537744947997a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Loaders/TilesetLoader.cs using Guid(2c105d7184cafec4ba0537744947997a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '918c8838383cc84cb3de3c18308baeb0') in 0.007737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/CustomPropertyExtensions.cs
+  artifactKey: Guid(a95b3732ae5e6d04d9a55bf45d315b48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/CustomPropertyExtensions.cs using Guid(a95b3732ae5e6d04d9a55bf45d315b48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4946a54a5ad487997928aa37cfcb6b0e') in 0.006447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/Geom.cs
+  artifactKey: Guid(c42c9eb9b131da7479aca40802a962b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/Geom.cs using Guid(c42c9eb9b131da7479aca40802a962b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '952718aba2e5eeca52a4102b6c192808') in 0.006632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/ImporterConstants.cs
+  artifactKey: Guid(9a9e1547e8aa7a244bd7467c8a3df1b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/ImporterConstants.cs using Guid(9a9e1547e8aa7a244bd7467c8a3df1b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e15a3f0c9f500ef2d79be02aab54376f') in 0.006469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/SuperImporterEditor.cs
+  artifactKey: Guid(11785ba3d6fd01e40bc425b04910de97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/SuperImporterEditor.cs using Guid(11785ba3d6fd01e40bc425b04910de97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f21d50d2ff95a458336bf08ee807f72') in 0.006888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '639754d67421d6fb3455972b14f40b6f') in 0.006317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Postprocessors/AssetDependencies.cs
+  artifactKey: Guid(cc91e788c0b3e5c418694a8b93ab14a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Postprocessors/AssetDependencies.cs using Guid(cc91e788c0b3e5c418694a8b93ab14a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e586e958f43eac7b9a05c525f6c891e') in 0.007543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Tiles/BadTileTextures.asset
+  artifactKey: Guid(d9c91e7736c97874393b93929ad385b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Tiles/BadTileTextures.asset using Guid(d9c91e7736c97874393b93929ad385b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '121a72979d149413d197c9fe7940fd13') in 0.069262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/WorldAssetImporter.cs
+  artifactKey: Guid(c6b19dac32d07094ca0a4ffc902a36c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/WorldAssetImporter.cs using Guid(c6b19dac32d07094ca0a4ffc902a36c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd508049c67452aa4f367b9f97263d202') in 0.008540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Third Party Notices.md
+  artifactKey: Guid(43a8c00db568c7d4f8d1a8920f85e2a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Third Party Notices.md using Guid(43a8c00db568c7d4f8d1a8920f85e2a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c535811ba7d6451b05159b0d67283f7f') in 0.005689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/RectUtil.cs
+  artifactKey: Guid(baab7f7c1aac1d34ebe570e8e97b1840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/RectUtil.cs using Guid(baab7f7c1aac1d34ebe570e8e97b1840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba709717d32086041884b552bc0ee62a') in 0.009253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/WorldAssetImporterEditor.cs
+  artifactKey: Guid(30744b74a3292c84794410430bba0b1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/WorldAssetImporterEditor.cs using Guid(30744b74a3292c84794410430bba0b1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2895384c9e52518570913ee1896d5ea1') in 0.007405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-02.png
+  artifactKey: Guid(5b982321c0b47c940b0368a0bb7bb2e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-02.png using Guid(5b982321c0b47c940b0368a0bb7bb2e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08bcd8f3f3dd730151c11762c8125a19') in 0.033391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Tiles/BadTileTextures.cs
+  artifactKey: Guid(050151f50f49c88428b22f5fdfbed9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Tiles/BadTileTextures.cs using Guid(050151f50f49c88428b22f5fdfbed9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82fa8436dc1f499e23c26249fb8c704c') in 0.005890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporter.TileLayer.cs
+  artifactKey: Guid(7821ed78f6c789f458a18526a5a20d7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporter.TileLayer.cs using Guid(7821ed78f6c789f458a18526a5a20d7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a80892bfd36ae7e96ff947215fe30d6') in 0.006029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset
+  artifactKey: Guid(4cee8bca36f2ab74b8feb832747fa6f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset using Guid(4cee8bca36f2ab74b8feb832747fa6f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5d78d7bf3b14879b8304ac65bd9b5a2') in 0.010774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TiledAssetImporterEditor.cs
+  artifactKey: Guid(f677b7b9e54b2ee469a77e6984caa343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TiledAssetImporterEditor.cs using Guid(f677b7b9e54b2ee469a77e6984caa343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0176eb58e88b61fc46868a222cdeb620') in 0.007867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperTileLayer.cs
+  artifactKey: Guid(6625a2c215475fa44b1c76c4ae978948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperTileLayer.cs using Guid(6625a2c215475fa44b1c76c4ae978948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1372384f8e928b50bd308675d00a26e') in 0.007837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/TileRenderSize.cs
+  artifactKey: Guid(255b9873788ab5e438e99de34fc6a599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/TileRenderSize.cs using Guid(255b9873788ab5e438e99de34fc6a599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '863abba6cd03349a06ddf785d2831e52') in 0.005161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Math/ColliderFactoryOrthogonal.cs
+  artifactKey: Guid(55d9524a7f13c664f925b8695cd8402a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Math/ColliderFactoryOrthogonal.cs using Guid(55d9524a7f13c664f925b8695cd8402a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f37b2e24ffa1197cbfd5fa6d5f1d3c96') in 0.006841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Settings/ST2USettingsProvider.cs
+  artifactKey: Guid(99b6c8e89bac149419fd0d075085f960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Settings/ST2USettingsProvider.cs using Guid(99b6c8e89bac149419fd0d075085f960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f33ae334303834db5418d7dd8acaa793') in 0.008826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-09.png
+  artifactKey: Guid(ac1ec9e7af65e4e45923fd42327326db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-09.png using Guid(ac1ec9e7af65e4e45923fd42327326db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98f7f0cf29c724fce550d6ee965b2183') in 0.031401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-07.png
+  artifactKey: Guid(96a30657241ae064d875b236b27454da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-07.png using Guid(96a30657241ae064d875b236b27454da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d8eba73731e3db145d92ae80e8daf92') in 0.028886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-05.png
+  artifactKey: Guid(d4373ac0588568b459b58415a1081f13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-05.png using Guid(d4373ac0588568b459b58415a1081f13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01596f789c7a1bd80aa58ed879c7d084') in 0.032340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-08.png
+  artifactKey: Guid(87e64a59e9b58eb4bb68dedd6ccfe547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-08.png using Guid(87e64a59e9b58eb4bb68dedd6ccfe547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4a0ac1c58d8d62b15e5a569e37b195f') in 0.037379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/Math.cs
+  artifactKey: Guid(360e031c5dfae294386ea430999d2a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/Math.cs using Guid(360e031c5dfae294386ea430999d2a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9dac443b384ee56d58d98ac54bed2c40') in 0.006289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/SuperTile.cs
+  artifactKey: Guid(2c16a673f427eb24f8288e6932fa0779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/SuperTile.cs using Guid(2c16a673f427eb24f8288e6932fa0779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb98009ae6be384d360d0ee81908a97a') in 0.008044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/PolygonEdgeGroup.cs
+  artifactKey: Guid(057a306415f72534fa02246cf5b32535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/PolygonEdgeGroup.cs using Guid(057a306415f72534fa02246cf5b32535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57a34a6a3f2449eafa084e5cc0d1a827') in 0.008048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/PolygonEdge.cs
+  artifactKey: Guid(288cf3ab427702b4187be0f66266c5a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/PolygonEdge.cs using Guid(288cf3ab427702b4187be0f66266c5a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cca099962e2bc68031ca08e6de2ca406') in 0.008455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/ByteExtensions.cs
+  artifactKey: Guid(dc3a8b114a4950947aba6626e1039b18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/ByteExtensions.cs using Guid(dc3a8b114a4950947aba6626e1039b18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a137728c4979107721d4ac6f98372902') in 0.008079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TxAssetImporter.cs
+  artifactKey: Guid(4426ef1bd8d94d242b03d3dc2d544b32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TxAssetImporter.cs using Guid(4426ef1bd8d94d242b03d3dc2d544b32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f8485e74695ac7b127d937dd5751145') in 0.007280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-04.png
+  artifactKey: Guid(4979b2c9a532e1642b8347a0edd3a63a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-04.png using Guid(4979b2c9a532e1642b8347a0edd3a63a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a88e53b83786892f7d89a4e9f12d3fd') in 0.034980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/StaggerIndex.cs
+  artifactKey: Guid(03030962dd74f1c4598a85df21d345da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/StaggerIndex.cs using Guid(03030962dd74f1c4598a85df21d345da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '303805b9cd2d08d81e2f6bb5f959e50e') in 0.008028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Icons/SuperIcons.cs
+  artifactKey: Guid(035702ede6747284cbd71dcd9331db46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Icons/SuperIcons.cs using Guid(035702ede6747284cbd71dcd9331db46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fb291cf89653fff8f08e6937dca22a5') in 0.007125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Postprocessors/TiledAssetDependencies.cs
+  artifactKey: Guid(f0f2386fad48a8f4d855c5c0ede7c18c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Postprocessors/TiledAssetDependencies.cs using Guid(f0f2386fad48a8f4d855c5c0ede7c18c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f547c2425eed05a1b13e4e084830a935') in 0.007842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/com.seanba.super-tiled2unity/LICENSE.md
+  artifactKey: Guid(235aaa2935a19564d912ccb96a24e901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/LICENSE.md using Guid(235aaa2935a19564d912ccb96a24e901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04104816cd1a8a7639cef78806659578') in 0.006716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Math/PolygonUtils.cs
+  artifactKey: Guid(a2766d062892bbd4f932a20d3a3122af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Math/PolygonUtils.cs using Guid(a2766d062892bbd4f932a20d3a3122af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd69577f8570f52dcb486ce7b57bbabf7') in 0.008722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/XmlExtensions.cs
+  artifactKey: Guid(4daa0d289a9eb0847bbd4aeaec3e7584) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/XmlExtensions.cs using Guid(4daa0d289a9eb0847bbd4aeaec3e7584) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86f03bfaf936aec372f58b1cbe03c6e4') in 0.005966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/TilePolygonCollection.cs
+  artifactKey: Guid(e8fc268ecca5bbc4c885325c2e8288ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/TilePolygonCollection.cs using Guid(e8fc268ecca5bbc4c885325c2e8288ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bad1ef65607da2ded5d40fc354395ee0') in 0.006603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/CollisionBuilder.cs
+  artifactKey: Guid(32777aadec3623d4b97d4a3ab62fd92f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/CollisionBuilder.cs using Guid(32777aadec3623d4b97d4a3ab62fd92f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92d396d8c2b7e943d5bee2917b87712e') in 0.009998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Icons/tsx-file-icon.png
+  artifactKey: Guid(456cd7fe3f53df64da488af63fed1de2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Icons/tsx-file-icon.png using Guid(456cd7fe3f53df64da488af63fed1de2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4ffa2195abeaa4d2c750a2913da6a19') in 0.032959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporterEditor.cs
+  artifactKey: Guid(663bd83c73616d340a0707fb3dc86b44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TmxAssetImporterEditor.cs using Guid(663bd83c73616d340a0707fb3dc86b44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c32790e3874e2f4c7168b6f6875eb92d') in 0.009638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Math/ColliderFactoryIsometric.cs
+  artifactKey: Guid(cc07e3d6880ec8c49bdc2d60b9a1d1df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Math/ColliderFactoryIsometric.cs using Guid(cc07e3d6880ec8c49bdc2d60b9a1d1df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c56db71292954d9b9590785a1e08076d') in 0.008039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/SuperLayerExtensions.cs
+  artifactKey: Guid(b8608888bf777314f85953dd6cac7ba1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/SuperLayerExtensions.cs using Guid(b8608888bf777314f85953dd6cac7ba1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dff845f73051713cd71f6a5aa23801c1') in 0.007874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Runtime/StaggerAxis.cs
+  artifactKey: Guid(47ca49b9280018440a3702a67d4e6920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Runtime/StaggerAxis.cs using Guid(47ca49b9280018440a3702a67d4e6920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f139e27642281309589298f7c906bf9') in 0.005535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/TiledAssetImporter.cs
+  artifactKey: Guid(a888f767b6df9e34b874a40c13fdbf58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/TiledAssetImporter.cs using Guid(a888f767b6df9e34b874a40c13fdbf58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08734de8b2b99c7618fea2532ccd8ef3') in 0.006688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/com.seanba.super-tiled2unity/Editor/Settings/ST2USettings.cs
+  artifactKey: Guid(ff72ddc2da234e244a8e96eb44e4c03d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/com.seanba.super-tiled2unity/Editor/Settings/ST2USettings.cs using Guid(ff72ddc2da234e244a8e96eb44e4c03d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '450f1d3da863d59a6ae51b55c1e2a5b6') in 0.008390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 533.997202 seconds.
+  path: Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset
+  artifactKey: Guid(5ea0ad1313f4d824ba55eaa30312e801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset using Guid(5ea0ad1313f4d824ba55eaa30312e801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3180615712f94495074f5c8b4608c565') in 0.020424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
