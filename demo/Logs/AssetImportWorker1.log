@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16221 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'pl' Physical Memory: 16118 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/kamil/OneDrive/Pulpit/RTS-demo/demo
+C:/Users/nozak/OneDrive/Pulpit/RTS-demo/demo
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54132
-Successfully changed project path to: C:/Users/kamil/OneDrive/Pulpit/RTS-demo/demo
-C:/Users/kamil/OneDrive/Pulpit/RTS-demo/demo
+64058
+Successfully changed project path to: C:/Users/nozak/OneDrive/Pulpit/RTS-demo/demo
+C:/Users/nozak/OneDrive/Pulpit/RTS-demo/demo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,23 +49,23 @@ C:/Users/kamil/OneDrive/Pulpit/RTS-demo/demo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24324] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1562050527 [EditorId] 1562050527 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-71PQ3G3T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19728] Host "[IP] 192.168.0.80 [Port] 0 [Flags] 2 [Guid] 3911578837 [EditorId] 3911578837 [Version] 1048832 [Id] WindowsEditor(7,NZL1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24324] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1562050527 [EditorId] 1562050527 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-71PQ3G3T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19728] Host "[IP] 192.168.0.80 [Port] 0 [Flags] 2 [Guid] 3911578837 [EditorId] 3911578837 [Version] 1048832 [Id] WindowsEditor(7,NZL1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 30.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 68.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kamil/OneDrive/Pulpit/RTS-demo/demo/Assets
+[Subsystems] Discovering subsystems at path C:/Users/nozak/OneDrive/Pulpit/RTS-demo/demo/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Renderer: NVIDIA GeForce MX350 (ID=0x1c94)
     Vendor:   NVIDIA
-    VRAM:     3937 MB
-    Driver:   32.0.15.6109
+    VRAM:     1964 MB
+    Driver:   32.0.15.6103
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
@@ -75,41 +75,41 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015785 seconds.
-- Loaded All Assemblies, in  0.527 seconds
+Registered in 0.008944 seconds.
+- Loaded All Assemblies, in  0.664 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.318 seconds
-Domain Reload Profiling: 839ms
-	BeginReloadAssembly (182ms)
+- Finished resetting the current domain, in  0.355 seconds
+Domain Reload Profiling: 1016ms
+	BeginReloadAssembly (230ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (197ms)
-		LoadAssemblies (175ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (222ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (194ms)
-				TypeCache.ScanAssembly (175ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (201ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (318ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (356ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (252ms)
+		SetupLoadedEditorAssemblies (273ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (165ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 839ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.893 seconds
-Refreshing native plugins compatible for Editor in 19.03 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.146 seconds
+Refreshing native plugins compatible for Editor in 12.18 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -132,47 +132,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.043 seconds
-Domain Reload Profiling: 1925ms
-	BeginReloadAssembly (173ms)
+- Finished resetting the current domain, in  1.155 seconds
+Domain Reload Profiling: 2292ms
+	BeginReloadAssembly (232ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (597ms)
-		LoadAssemblies (454ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (766ms)
+		LoadAssemblies (501ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (242ms)
-			TypeCache.Refresh (202ms)
-				TypeCache.ScanAssembly (182ms)
-			ScanForSourceGeneratedMonoScriptInfo (35ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1043ms)
+		AnalyzeDomain (374ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (303ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1156ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (841ms)
+		SetupLoadedEditorAssemblies (900ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (605ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (23ms)
+			BeforeProcessingInitializeOnLoad (221ms)
+			ProcessInitializeOnLoadAttributes (586ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 21.18 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 17.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4412 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (68.6 KB). Loaded Objects now: 4859.
-Memory consumption went from 144.2 MB to 144.2 MB.
-Total: 5.866500 ms (FindLiveObjects: 0.370900 ms CreateObjectMapping: 1.157700 ms MarkObjects: 4.175100 ms  DeleteObjects: 0.161400 ms)
+Unloading 79 unused Assets / (68.3 KB). Loaded Objects now: 4859.
+Memory consumption went from 144.8 MB to 144.7 MB.
+Total: 5.660200 ms (FindLiveObjects: 0.450200 ms CreateObjectMapping: 0.279500 ms MarkObjects: 4.715500 ms  DeleteObjects: 0.213300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -189,317 +189,142 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 8839.214559 seconds.
-  path: Assets/TutorialInfo/Scripts/Readme.cs
-  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '444cb5e18374fd5d8e2e8424573aa535') in 0.129402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.816 seconds
+Refreshing native plugins compatible for Editor in 17.53 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.090 seconds
+Domain Reload Profiling: 2896ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (542ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2090ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (902ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (228ms)
+			ProcessInitializeOnLoadAttributes (582ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 9.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4401 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (42.4 KB). Loaded Objects now: 4864.
+Memory consumption went from 141.9 MB to 141.9 MB.
+Total: 4.128300 ms (FindLiveObjects: 0.430200 ms CreateObjectMapping: 0.254900 ms MarkObjects: 3.372700 ms  DeleteObjects: 0.068900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Runtime/CustomProperty.cs
-  artifactKey: Guid(daf466123d223cb4dab652fb5c136636) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Runtime/CustomProperty.cs using Guid(daf466123d223cb4dab652fb5c136636) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '278a54dad27dea81bfa695acc8d25645') in 0.005849 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Icons/tmx-file-icon.png
-  artifactKey: Guid(3bbe1872cdca28840b24eb648e071bcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Icons/tmx-file-icon.png using Guid(3bbe1872cdca28840b24eb648e071bcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a6eb4c75ba40da80c580a46d4ebdf399') in 0.086978 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-10.png
-  artifactKey: Guid(10679414c404ccc499ad2abe31eac35f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-10.png using Guid(10679414c404ccc499ad2abe31eac35f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9f4891a2f416dca4ee2513a1960c9da1') in 0.033516 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-06.png
-  artifactKey: Guid(7d59d292c52f8b44580cc8d8360d16e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-06.png using Guid(7d59d292c52f8b44580cc8d8360d16e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ece5cc02f99c7eae6203b05ba7ce701c') in 0.029798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/clipper.cs
-  artifactKey: Guid(8e115dc173eb7144b9e4658ea2e46fb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/clipper.cs using Guid(8e115dc173eb7144b9e4658ea2e46fb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1f809bc3be7f5d932cafb80f3b0b428b') in 0.007425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Properties/CustomObjectType.cs
-  artifactKey: Guid(0d6063cd2a5219f448ae88f3b5dfb243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Properties/CustomObjectType.cs using Guid(0d6063cd2a5219f448ae88f3b5dfb243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd477c1373b468d99b62c46d4021ee632') in 0.007560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/Mesh.cs
-  artifactKey: Guid(895574c79cf1f4140acf071b46a62b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/Mesh.cs using Guid(895574c79cf1f4140acf071b46a62b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a34dbbeb402c7656a153a641edeec96a') in 0.006909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Extensions/CompositeCollider2DExtensions.cs
-  artifactKey: Guid(e8a1e4dd208e2fe499c0fc5c875ccd45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Extensions/CompositeCollider2DExtensions.cs using Guid(e8a1e4dd208e2fe499c0fc5c875ccd45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5956ce51b08a59668642d1e1d78cb69f') in 0.008116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Loaders/SuperTileLayerLoader.cs
-  artifactKey: Guid(4100ed00b551e2c45aa3cab854a3b513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Loaders/SuperTileLayerLoader.cs using Guid(4100ed00b551e2c45aa3cab854a3b513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0dc5655694ae31ee18e2c21156a0d9b8') in 0.006817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/com.seanba.super-tiled2unity/CHANGELOG.md
-  artifactKey: Guid(155958f6e6082584ca5410981efdc782) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/CHANGELOG.md using Guid(155958f6e6082584ca5410981efdc782) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '79d6515177f7ad12af97e4e598bfaa41') in 0.007895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Runtime/Extensions/CustomPropertyExtensions.cs
-  artifactKey: Guid(9e174054d7cca364ba225c9011e67b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Runtime/Extensions/CustomPropertyExtensions.cs using Guid(9e174054d7cca364ba225c9011e67b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '558fd0e6029ef0e3b38a8140a2b7d025') in 0.007618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/PriorityQueue.cs
-  artifactKey: Guid(fe69d099d524bc74d8de95bea8ff1d80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/PriorityQueue.cs using Guid(fe69d099d524bc74d8de95bea8ff1d80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4c0aea3db62f7fe00a6e742356455e0b') in 0.006293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/PriorityHeap.cs
-  artifactKey: Guid(0709e293685a7694fb6e3bdf1483f65b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/PriorityHeap.cs using Guid(0709e293685a7694fb6e3bdf1483f65b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '06171f2512cfe35602571b218d0c1aa8') in 0.007142 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Runtime/Errors/ImportErrors.cs
-  artifactKey: Guid(aa0b69b0c654a2c418362fc45a64bfbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Runtime/Errors/ImportErrors.cs using Guid(aa0b69b0c654a2c418362fc45a64bfbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd1dffaa44c1414d37b8cf394bc30a080') in 0.009792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/CompositionPolygon.cs
-  artifactKey: Guid(a0cd0461593f4314a9a6043987d2e95a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/CompositionPolygon.cs using Guid(a0cd0461593f4314a9a6043987d2e95a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a7b26ddc07f713d1ee2960cc3e194d02') in 0.005923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/Sweep.cs
-  artifactKey: Guid(70894d2af6f39db4bae92827a38af00e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/ThirdParty/LibTessDotNet/Sweep.cs using Guid(70894d2af6f39db4bae92827a38af00e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '55e36b9819bc6cbb5800e994dec3a77f') in 0.007896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperWorld.cs
-  artifactKey: Guid(581fb3f3285643f44afda31d45289d8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperWorld.cs using Guid(581fb3f3285643f44afda31d45289d8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '66cbdb766253b40f180ac6a8e9cf1d7d') in 0.006934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Loaders/SuperLayerLoader.cs
-  artifactKey: Guid(fab5b5345df240a4c977c049aa5d1b5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Loaders/SuperLayerLoader.cs using Guid(fab5b5345df240a4c977c049aa5d1b5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '620496d646b8aa4089528ffd5d49a952') in 0.008974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/ComposeConvexPolygons.cs
-  artifactKey: Guid(ade4471a1fe9b004582ec85201b9a444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Collision/Geometry/ComposeConvexPolygons.cs using Guid(ade4471a1fe9b004582ec85201b9a444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a11fe63db7e84eede82e87010435ecd6') in 0.007094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/CustomEditors/SuperMapEditor.cs
-  artifactKey: Guid(ba25f76519139a8458d816f3df6e7cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/CustomEditors/SuperMapEditor.cs using Guid(ba25f76519139a8458d816f3df6e7cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1c444d9d8be6fa674f927656b6d17dc6') in 0.007052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Errors/ImportErrorsEditor.cs
-  artifactKey: Guid(7e1ca9da80b98b44e822f6b03386f6b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Errors/ImportErrorsEditor.cs using Guid(7e1ca9da80b98b44e822f6b03386f6b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04b2b3eb3f549040bdae43ac42e24c06') in 0.007898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '198198c4ec779bb39239a1c63009ff36') in 0.028236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Runtime/SuperObjectLayer.cs
-  artifactKey: Guid(bdadc5a21ba6c134192e653b4385d366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Runtime/SuperObjectLayer.cs using Guid(bdadc5a21ba6c134192e653b4385d366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f4c7cd556b29f66c6f601e586f1a4160') in 0.008105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Loaders/CustomPropertyLoader.cs
-  artifactKey: Guid(4ffe19ff319af474d9c3709da2789720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Loaders/CustomPropertyLoader.cs using Guid(4ffe19ff319af474d9c3709da2789720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd9669fb9786cb514aad1f72ecd06db95') in 0.008457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Loaders/SuperImageLayerLoader.cs
-  artifactKey: Guid(52e94c587bfda334cbca886bec660974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Loaders/SuperImageLayerLoader.cs using Guid(52e94c587bfda334cbca886bec660974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a51b05f327ad527b01e69de097f3c3ff') in 0.006804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Runtime/Extensions/GameObjectExtensions.cs
-  artifactKey: Guid(b77a8a3f25ef76e4f9d952614697a3d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Runtime/Extensions/GameObjectExtensions.cs using Guid(b77a8a3f25ef76e4f9d952614697a3d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fa6dc13d716e1d91faad6281413227aa') in 0.009103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
-  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '033109bd8e7714dfe4184dd23e4dd44a') in 0.007961 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Importers/AddST2USpritesToTexture.cs
-  artifactKey: Guid(5a4f2168910b38f4ea3f64ecfed97d5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Importers/AddST2USpritesToTexture.cs using Guid(5a4f2168910b38f4ea3f64ecfed97d5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1063fec5d3d3ed0c4dea63eb892c42d8') in 0.005916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/Exceptions/CustomImporterException.cs
-  artifactKey: Guid(ef576cb33d2bff74da4363baa98476db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/Exceptions/CustomImporterException.cs using Guid(ef576cb33d2bff74da4363baa98476db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'df02f5b4a1011750ac325cb3a5c2c160') in 0.008351 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/GlobalTileDatabase.cs
-  artifactKey: Guid(325ecefe5027b8b42a7c653ca4af9dfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/GlobalTileDatabase.cs using Guid(325ecefe5027b8b42a7c653ca4af9dfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cb8770505541263149617379f7580565') in 0.007433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/com.seanba.super-tiled2unity/VersionCheck/VersionCheck.cs
-  artifactKey: Guid(13c4ec3d694788645a8600bd8ba10c47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/VersionCheck/VersionCheck.cs using Guid(13c4ec3d694788645a8600bd8ba10c47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c50f117cafbd7056cfbf8830d89102bb') in 0.006546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAssetMap.cs
-  artifactKey: Guid(7b9230422fd3f0b4f84aeed3552983e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Editor/AssetTypes/SuperAssetMap.cs using Guid(7b9230422fd3f0b4f84aeed3552983e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9e124c293d8ba5ec691d0a6fcad98ad8') in 0.008248 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Runtime/Extensions/SuperTileExtensions.cs
-  artifactKey: Guid(7c12df8ebeeaaba4bb8d835232926ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Runtime/Extensions/SuperTileExtensions.cs using Guid(7c12df8ebeeaaba4bb8d835232926ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f535b266b932187c7f9220525d06bc49') in 0.008126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-01.png
-  artifactKey: Guid(dc3a3046af387194bb098815b68cd744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/com.seanba.super-tiled2unity/Runtime/Tiles/Textures/bad-tile-01.png using Guid(dc3a3046af387194bb098815b68cd744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5344660f8e86baf6f8fdcb2a9595b95a') in 0.030827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.696 seconds
+Refreshing native plugins compatible for Editor in 10.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.901 seconds
+Domain Reload Profiling: 2588ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (448ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1902ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (880ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (218ms)
+			ProcessInitializeOnLoadAttributes (573ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 15.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4401 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (42.4 KB). Loaded Objects now: 4868.
+Memory consumption went from 141.9 MB to 141.9 MB.
+Total: 5.066100 ms (FindLiveObjects: 0.423300 ms CreateObjectMapping: 0.325400 ms MarkObjects: 4.161200 ms  DeleteObjects: 0.141400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
