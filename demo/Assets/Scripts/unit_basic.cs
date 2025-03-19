@@ -15,6 +15,7 @@ public class UnitBasic : MonoBehaviour
     Vector2 touchMapPosition = Vector2.zero;
     Vector2 touchScreenPosition = Vector2.zero;
     Collider2D hitCollider = null;
+    UnitBasic unitManagerInstance; // to bedzie w unit manager later, teraz jest by pokazzaæ jak dziala przycisk
 
     void Start()
     {
@@ -24,6 +25,12 @@ public class UnitBasic : MonoBehaviour
 
         TouchManager.Instance.OnTouchBegan += HandleTouchBegan;
         TouchManager.Instance.OnTouchEnded += HandleTouchEnded;
+    }
+
+    void Awake()
+    {
+        if (unitManagerInstance == null) unitManagerInstance = this;
+        else Destroy(gameObject);
     }
 
     void Update()

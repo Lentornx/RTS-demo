@@ -392,6 +392,7 @@
 "Assets/Scripts/ClickTracker.cs"
 "Assets/Scripts/TouchManager.cs"
 "Assets/Scripts/unit_basic.cs"
+"Assets/Scripts/UniversalButton.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
