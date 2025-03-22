@@ -1,68 +1,71 @@
 using UnityEngine;
 
-public class UnitTouchController : MonoBehaviour
+public class UnitBasic : MonoBehaviour
 {
     private bool isSelected = false;
     private SpriteRenderer spriteRenderer;
     public Color selectedColor = Color.green;
     private Color defaultColor;
 
-    public float moveSpeed = 5f; 
-    private Vector3 targetPosition;
+    public float moveSpeed = 5f;
+    private Vector2 targetPosition;
     private bool moving = false;
 
     float touchStartTime = 0;
     Vector2 touchMapPosition = Vector2.zero;
     Vector2 touchScreenPosition = Vector2.zero;
     Collider2D hitCollider = null;
+    UnitBasic unitManagerInstance; // to bedzie w unit manager later, teraz jest by pokazzaæ jak dziala przycisk
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         defaultColor = spriteRenderer.color;
         targetPosition = transform.position;
+
+        TouchManager.Instance.OnTouchBegan += HandleTouchBegan;
+        TouchManager.Instance.OnTouchEnded += HandleTouchEnded;
+    }
+
+    void Awake()
+    {
+        if (unitManagerInstance == null) unitManagerInstance = this;
+        else Destroy(gameObject);
     }
 
     void Update()
     {
-        HandleTouchInput();
         if (moving)
         {
-            transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
-            if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+            if (Vector2.Distance(transform.position, targetPosition) < 0.1f)
             {
                 moving = false;
             }
         }
     }
 
-    void HandleTouchInput()
+    void HandleTouchBegan(Vector2 touchPosition)
     {
-        if (Input.touchCount > 0) 
-        {
-            Touch touch = Input.GetTouch(0);
-            if (touch.phase == TouchPhase.Began)
-            {
-                touchStartTime = Time.time;
-                touchMapPosition = Camera.main.ScreenToWorldPoint(touch.position); //what place we clicked on the world 
-                touchScreenPosition = touch.position; //where we clicked on the screen
+        touchStartTime = Time.time;
+        touchMapPosition = Camera.main.ScreenToWorldPoint(touchPosition); // what place we clicked on the world 
+        touchScreenPosition = touchPosition; // where we clicked on the screen
 
-                hitCollider = Physics2D.OverlapPoint(touchMapPosition);
-            }
-            else if (touch.phase == TouchPhase.Ended)
+        hitCollider = Physics2D.OverlapPoint(touchMapPosition);
+    }
+
+    void HandleTouchEnded(Vector2 touchPosition)
+    {
+        if (Vector2.Distance(touchPosition, touchScreenPosition) < 100f && Time.time - touchStartTime < 1f) // check if not dragging or holding
+        {
+            if (hitCollider != null && hitCollider.gameObject == gameObject)
             {
-                if (Vector2.Distance(touch.position, touchScreenPosition) < 1f && Time.time - touchStartTime < 1f)
-                {
-                    if (hitCollider != null && hitCollider.gameObject == gameObject)
-                    {
-                        ToggleSelection();
-                    }
-                    else if (isSelected)
-                    {
-                        targetPosition = touchMapPosition;
-                        moving = true;
-                    }
-                }
+                ToggleSelection();
+            }
+            else if (isSelected)
+            {
+                targetPosition = Camera.main.ScreenToWorldPoint(touchPosition);
+                moving = true;
             }
         }
     }
@@ -71,5 +74,14 @@ public class UnitTouchController : MonoBehaviour
     {
         isSelected = !isSelected;
         spriteRenderer.color = isSelected ? selectedColor : defaultColor;
+    }
+
+    void OnDestroy()
+    {
+        if (TouchManager.Instance != null)
+        {
+            TouchManager.Instance.OnTouchBegan -= HandleTouchBegan;
+            TouchManager.Instance.OnTouchEnded -= HandleTouchEnded;
+        }
     }
 }
