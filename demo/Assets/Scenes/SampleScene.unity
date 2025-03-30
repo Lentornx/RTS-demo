@@ -893,9 +893,17 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 7683318374719434894, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
+      propertyPath: m_TagString
+      value: Walkable
+      objectReference: {fileID: 0}
     - target: {fileID: 8382432531608450577, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_TagString
       value: Decoration
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500001230899269413, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
+      propertyPath: m_TagString
+      value: Walkable
       objectReference: {fileID: 0}
     - target: {fileID: 8666422894901098751, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_TagString

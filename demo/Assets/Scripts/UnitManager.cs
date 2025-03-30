@@ -150,6 +150,7 @@ public class UnitManager : MonoBehaviour
     // ignores Decoration tilemaps
     public Tilemap GetTopTilemap(Vector3Int gridPosition)
     {
+        // !!! tilemaps with complex geometry (e.g. trees) may be erroneously omitted
         Tilemap topTilemap = null;
         int topTileOrderInLayer = int.MinValue;
 

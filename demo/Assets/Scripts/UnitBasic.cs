@@ -32,7 +32,7 @@ public class UnitBasic : MonoBehaviour
             Vector2 newPosition = Vector2.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
 
             // Check if the unit encounters an invalid tile
-            if (!CanMoveTo(transform.position, newPosition))
+            if (!CanMoveTo(newPosition))
             {
                 moving = false;
             }
@@ -48,12 +48,11 @@ public class UnitBasic : MonoBehaviour
         }
     }
 
-    bool CanMoveTo(Vector2 currentPosition, Vector2 nextPosition)
+    bool CanMoveTo(Vector2 nextPosition)
     {
-        // FIXME detecting tiles in tilemaps with complex geometry (e.g. drzewa) is bugged
         UnitManager unitManager = UnitManager.Instance;
 
-        Vector3Int currentGridPosition = unitManager.GetGridPosition(currentPosition);
+        Vector3Int currentGridPosition = unitManager.GetGridPosition(transform.position);
         Tilemap currentTilemap = unitManager.GetTopTilemap(currentGridPosition);
         TileBase currentTile = currentTilemap.GetTile(currentGridPosition);
 
@@ -63,10 +62,7 @@ public class UnitBasic : MonoBehaviour
 
         if (currentTile != null && nextTile != null)
         {
-            string currentTileType = currentTilemap.name;
-            string nextTileType = nextTilemap.name;
-
-            return IsValidTransition(currentTileType, nextTileType);
+            return IsValidTransition(currentTilemap.name, nextTilemap.name);
         }
         return false;
     }
@@ -78,7 +74,6 @@ public class UnitBasic : MonoBehaviour
         {
             return true;
         }
-        Debug.Log("From " + fromTileType + " to " + toTileType);
         return validTransitions.Exists(pair =>
             (pair.Item1 == fromTileType && pair.Item2 == toTileType) ||
             (pair.Item1 == toTileType && pair.Item2 == fromTileType));
@@ -87,12 +82,14 @@ public class UnitBasic : MonoBehaviour
     void InitializeValidTransitions()
     {
         validTransitions.Add(("trawa", "kamienie - 1-schody"));
-        validTransitions.Add(("trawa", "pomosty"));
+        validTransitions.Add(("trawa", "pomosty- poziom 0"));
         validTransitions.Add(("kamienie - 1", "kamienie - 1-schody"));
+        validTransitions.Add(("kamienie - 1", "trawa - piêtro"));
         validTransitions.Add(("kamienie - 1", "kamienie - 2-schody"));
-        validTransitions.Add(("kamienie - 1", "pomosty"));
+        validTransitions.Add(("kamienie - 1", "pomosty-piêtro"));
         validTransitions.Add(("trawa - piêtro", "kamienie - 1-schody"));
         validTransitions.Add(("trawa - piêtro", "kamienie - 2-schody"));
+        validTransitions.Add(("trawa - piêtro", "pomosty-piêtro"));
         validTransitions.Add(("kamienie - 2", "kamienie - 2-schody"));
     }
 
