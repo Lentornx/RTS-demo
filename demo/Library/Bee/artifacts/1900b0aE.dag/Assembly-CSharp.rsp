@@ -394,8 +394,8 @@
 "Assets/Scripts/camera_movement.cs"
 "Assets/Scripts/ClickTracker.cs"
 "Assets/Scripts/TouchManager.cs"
+"Assets/Scripts/UnitBasic.cs"
 "Assets/Scripts/UnitManager.cs"
-"Assets/Scripts/unit_basic.cs"
 "Assets/Scripts/UniversalButton.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

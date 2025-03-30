@@ -789,9 +789,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1737246993}
     m_Modifications:
-    - target: {fileID: -5161647398648896753, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
+    - target: {fileID: -7195770843718436456, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_TagString
       value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: -5161647398648896753, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
+      propertyPath: m_TagString
+      value: Walkable
       objectReference: {fileID: 0}
     - target: {fileID: -4691052800056904287, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_TagString
@@ -801,13 +805,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: mapka-poprawiona
       objectReference: {fileID: 0}
+    - target: {fileID: -3534484770620624400, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
+      propertyPath: m_TagString
+      value: Walkable
+      objectReference: {fileID: 0}
+    - target: {fileID: -2638851276095763216, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: -2330814777330339461, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_TagString
       value: Walkable
       objectReference: {fileID: 0}
     - target: {fileID: -1246048314063518570, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_TagString
-      value: Walkable
+      value: Decoration
       objectReference: {fileID: 0}
     - target: {fileID: -854317478950588198, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_TagString
@@ -819,7 +831,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 90007782884725321, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_TagString
-      value: Walkable
+      value: Decoration
       objectReference: {fileID: 0}
     - target: {fileID: 2563760922334733697, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -863,6 +875,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2814774896219299605, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_TagString
+      value: Decoration
+      objectReference: {fileID: 0}
+    - target: {fileID: 4509312595342005132, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
+      propertyPath: m_TagString
       value: Walkable
       objectReference: {fileID: 0}
     - target: {fileID: 5138384073454884373, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
@@ -879,11 +895,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8382432531608450577, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Decoration
       objectReference: {fileID: 0}
     - target: {fileID: 8666422894901098751, guid: e24fd227ec6c09a479bebf3e0edc9be6, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Walkable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

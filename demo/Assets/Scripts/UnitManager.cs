@@ -17,7 +17,9 @@ public class UnitManager : MonoBehaviour
     private Collider2D hitCollider = null;
 
     public Transform gridParent;
+    private GridLayout gridLayout;
     private List<Tilemap> tilemaps;
+    public List<Tilemap> Tilemaps => tilemaps;
 
     void Awake()
     {
@@ -34,6 +36,7 @@ public class UnitManager : MonoBehaviour
     void Start()
     {
         PopulateTilemapsFromGrid();
+        gridLayout = gridParent.GetComponent<GridLayout>();
 
         TouchManager.Instance.OnTouchBegan += HandleTouchBegan;
         TouchManager.Instance.OnTouchEnded += HandleTouchEnded;
@@ -56,24 +59,7 @@ public class UnitManager : MonoBehaviour
         touchStartTime = Time.time;
         touchWorldPosition = Camera.main.ScreenToWorldPoint(touchPosition);
         touchScreenPosition = touchPosition;
-
-        GridLayout gridLayout = gridParent.GetComponent<GridLayout>();
-        if (gridLayout != null)
-        {
-            Vector2 cellSize = gridLayout.cellSize;
-
-            // convert world position to grid position
-            Vector3 localPosition = gridParent.InverseTransformPoint(touchWorldPosition);
-            touchGridPosition = new Vector3Int(
-                Mathf.FloorToInt(localPosition.x / cellSize.x),
-                Mathf.FloorToInt(localPosition.y / cellSize.y),
-                0
-            );
-        }
-        else
-        {
-            Debug.LogError("GridLayout component not found on gridParent.");
-        }
+        touchGridPosition = GetGridPosition(touchWorldPosition);
 
         hitCollider = Physics2D.OverlapPoint(touchWorldPosition);
     }
@@ -105,23 +91,7 @@ public class UnitManager : MonoBehaviour
     bool CanMoveTo(Vector3Int gridPosition)
     {
         bool canMove = true;
-        Tilemap topTilemap = null;
-        int topTileOrderInLayer = int.MinValue;
-
-        foreach (var tilemap in tilemaps)
-        {
-            TileBase tile = tilemap.GetTile(gridPosition);
-            if (tile != null)
-            {
-                Renderer renderer = tilemap.GetComponent<Renderer>();
-
-                if (renderer != null && renderer.sortingOrder > topTileOrderInLayer)
-                {
-                    topTileOrderInLayer = renderer.sortingOrder;
-                    topTilemap = tilemap;
-                }
-            }
-        }
+        Tilemap topTilemap = GetTopTilemap(gridPosition);
 
         if (topTilemap != null)
         {
@@ -154,6 +124,53 @@ public class UnitManager : MonoBehaviour
             selectedUnit = unit;
             selectedUnit.Select();
         }
+    }
+
+    public Vector3Int GetGridPosition(Vector2 worldPosition)
+    {
+        if (gridLayout != null)
+        {
+            Vector2 cellSize = gridLayout.cellSize;
+
+            // convert world position to grid position
+            Vector3 localPosition = gridParent.InverseTransformPoint(worldPosition);
+            return new Vector3Int(
+                Mathf.FloorToInt(localPosition.x / cellSize.x),
+                Mathf.FloorToInt(localPosition.y / cellSize.y),
+                0
+            );
+        }
+        else
+        {
+            Debug.LogError("GridLayout component not found on gridParent.");
+            return Vector3Int.zero;
+        }
+    }
+
+    // ignores Decoration tilemaps
+    public Tilemap GetTopTilemap(Vector3Int gridPosition)
+    {
+        Tilemap topTilemap = null;
+        int topTileOrderInLayer = int.MinValue;
+
+        foreach (var tilemap in tilemaps)
+        {
+            if (tilemap.CompareTag("Decoration"))
+                continue;
+
+            TileBase tile = tilemap.GetTile(gridPosition);
+            if (tile != null)
+            {
+                Renderer renderer = tilemap.GetComponent<Renderer>();
+
+                if (renderer != null && renderer.sortingOrder > topTileOrderInLayer)
+                {
+                    topTileOrderInLayer = renderer.sortingOrder;
+                    topTilemap = tilemap;
+                }
+            }
+        }
+        return topTilemap;
     }
 
     void OnDestroy()
