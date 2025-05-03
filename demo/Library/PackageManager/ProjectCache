@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638780122794127847
-    m_Hash: 2076451820
+      ticks: 638793989825096268
+    m_Hash: 2807233735
   m_LockFileStatus:
     m_FilePath: C:/Users/mm620/Documents/GitHub/RTS-demo/demo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638780122794127847
-    m_Hash: 2604572507
+      ticks: 638793989825156289
+    m_Hash: 1422296556
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -5142,6 +5142,7 @@ m_ResolvedPackages:
     - 1.3.1
     - 1.4.0
     - 1.5.1
+    - 1.5.2
     - 2.1.0-exp.4
     - 2.1.0-pre.2
     - 2.1.0-pre.6
@@ -5171,6 +5172,7 @@ m_ResolvedPackages:
     - 1.3.1
     - 1.4.0
     - 1.5.1
+    - 1.5.2
     - 2.1.0-exp.4
     - 2.1.0-pre.2
     - 2.1.0-pre.6

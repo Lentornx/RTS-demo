@@ -15,6 +15,7 @@ public class UnitManager : MonoBehaviour
     private Vector2 touchScreenPosition = Vector2.zero;
     private Vector3Int touchGridPosition = Vector3Int.zero;
     private Collider2D hitCollider = null;
+    private bool isInitialized = false;
 
     public Transform gridParent;
     private GridLayout gridLayout;
@@ -40,6 +41,7 @@ public class UnitManager : MonoBehaviour
 
         TouchManager.Instance.OnTouchBegan += HandleTouchBegan;
         TouchManager.Instance.OnTouchEnded += HandleTouchEnded;
+        isInitialized = true;
     }
     void PopulateTilemapsFromGrid()
     {
@@ -52,6 +54,11 @@ public class UnitManager : MonoBehaviour
                 tilemaps.Add(tilemap);
             }
         }
+    }
+
+    public bool IsInitialized()
+    {
+        return isInitialized;
     }
 
     void HandleTouchBegan(Vector2 touchPosition)
@@ -90,6 +97,7 @@ public class UnitManager : MonoBehaviour
 
     bool CanMoveTo(Vector3Int gridPosition)
     {
+        return true;
         bool canMove = true;
         Tilemap topTilemap = GetTopTilemap(gridPosition);
 

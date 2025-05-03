@@ -185,7 +185,8 @@ namespace SuperTiled2Unity
         public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData)
         {
             tileData.sprite = m_Sprite;
-            tileData.colliderType = m_ColliderType;
+            //tileData.colliderType = m_ColliderType;
+            tileData.colliderType = Tile.ColliderType.Sprite;
         }
 
         public override bool GetTileAnimationData(Vector3Int position, ITilemap tilemap, ref TileAnimationData tileAnimationData)
