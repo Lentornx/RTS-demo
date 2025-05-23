@@ -1,21 +1,18 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.Tilemaps;
-using UnityEngine.WSA;
 
 public class UnitManager : MonoBehaviour
 {
     public static UnitManager Instance { get; private set; }
 
     private List<UnitBasic> selectedUnits = new List<UnitBasic>();
-    private UnitBasic selectedUnit;
 
     private float touchStartTime = 0;
     private Vector2 touchWorldPosition = Vector2.zero;
     private Vector2 touchScreenPosition = Vector2.zero;
     private Vector3Int touchGridPosition = Vector3Int.zero;
     private Collider2D hitCollider = null;
-    private bool isInitialized = false;
 
     public Transform gridParent;
     private GridLayout gridLayout;
@@ -41,7 +38,6 @@ public class UnitManager : MonoBehaviour
 
         TouchManager.Instance.OnTouchBegan += HandleTouchBegan;
         TouchManager.Instance.OnTouchEnded += HandleTouchEnded;
-        isInitialized = true;
     }
     void PopulateTilemapsFromGrid()
     {
@@ -54,11 +50,6 @@ public class UnitManager : MonoBehaviour
                 tilemaps.Add(tilemap);
             }
         }
-    }
-
-    public bool IsInitialized()
-    {
-        return isInitialized;
     }
 
     void HandleTouchBegan(Vector2 touchPosition)
@@ -79,15 +70,17 @@ public class UnitManager : MonoBehaviour
             if (hitCollider != null)
             {
                 UnitBasic unit = hitCollider.GetComponent<UnitBasic>();
-                if (unit != null)
+                if (unit != null && unit.faction == "Player")
                 {
                     ToggleSelection(unit);
                 }
             }
-            else if (selectedUnit != null)
+            else
             {
                 Vector2 targetPosition = Camera.main.ScreenToWorldPoint(touchEndedPosition);
-                if (CanMoveTo(touchGridPosition))
+
+                selectedUnits.RemoveAll(u => u == null); // remove dead units
+                foreach (UnitBasic selectedUnit in selectedUnits)
                 {
                     selectedUnit.MoveTo(targetPosition);
                 }
@@ -95,42 +88,19 @@ public class UnitManager : MonoBehaviour
         }
     }
 
-    bool CanMoveTo(Vector3Int gridPosition)
-    {
-        return true;
-        bool canMove = true;
-        Tilemap topTilemap = GetTopTilemap(gridPosition);
-
-        if (topTilemap != null)
-        {
-            TileBase tile = topTilemap.GetTile(gridPosition);
-
-            if (tile != null && topTilemap.CompareTag("Obstacle"))
-            {
-                canMove = false;
-            }
-        }
-        return canMove;
-    }
-
-
     void ToggleSelection(UnitBasic unit)
     {
-        // deselect if same unit
-        if (selectedUnit == unit)
+        if (selectedUnits.Contains(unit))
         {
-            selectedUnit.Deselect();
-            selectedUnit = null;
+            // deselect and remove the unit
+            unit.Deselect();
+            selectedUnits.Remove(unit);
         }
-        // deselect old unit and select new unit
         else
         {
-            if (selectedUnit != null)
-            {
-                selectedUnit.Deselect();
-            }
-            selectedUnit = unit;
-            selectedUnit.Select();
+            // select and add the unit
+            unit.Select();
+            selectedUnits.Add(unit);
         }
     }
 
