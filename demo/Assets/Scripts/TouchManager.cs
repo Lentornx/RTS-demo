@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using UnityEngine.EventSystems;
 
 public class TouchManager : MonoBehaviour
 {
@@ -53,4 +54,17 @@ public class TouchManager : MonoBehaviour
             }
         }
     }
+    public Vector2 GetSelectedMapPosition()
+    {
+        if(Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            //Debug.Log("Zmieniono pozycje");
+            lastTouchPosition =  touch.position;
+        }
+        return lastTouchPosition;
+    }
+
+ 
+
 }

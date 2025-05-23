@@ -3,8 +3,9 @@ using System.Reflection;
 
 public class UniversalButton : MonoBehaviour
 {
+
     public GameObject targetObject;
-    public string functionName; 
+    public string functionName;
 
     void Start()
     {

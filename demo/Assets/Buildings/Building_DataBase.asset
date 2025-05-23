@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b640dc6759b6ccf4a98395b1c412f1bf, type: 3}
+  m_Name: Building_DataBase
+  m_EditorClassIdentifier: 
+  objectsData:
+  - <Name>k__BackingField: Carrot
+    <ID>k__BackingField: 0
+    <Size>k__BackingField: {x: 0, y: 0}
+    <Prefab>k__BackingField: {fileID: 2332643341608606574, guid: 82ccfa03ab98c4f4ab893a175d07df06, type: 3}
+    <requiredWood>k__BackingField: 100
+  - <Name>k__BackingField: Farm
+    <ID>k__BackingField: 1
+    <Size>k__BackingField: {x: 0, y: 0}
+    <Prefab>k__BackingField: {fileID: 2332643341608606574, guid: 4ea2975ff370a1241913f0e442f69967, type: 3}
+    <requiredWood>k__BackingField: 25
