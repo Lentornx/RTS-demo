@@ -8,7 +8,7 @@ public class UnitBasic : MonoBehaviour
 {
     private bool isSelected = false;
     private SpriteRenderer spriteRenderer;
-    public Color selectedColor = Color.green;
+    public Color selectedColor = Color.blue;
     private Color defaultColor;
 
     public GameObject healthBarPrefab;
@@ -25,11 +25,15 @@ public class UnitBasic : MonoBehaviour
     public int maxHealth = 50;
     private int currentHealth;
 
+    private Animator animator;
     private Seeker seeker;
     private Path currentPath;
     private int currentWaypoint = 0;
     private float nextWaypointDistance = 0.01f;
     private bool pathPending = false;
+
+    private Vector3 lastPosition;
+    public bool IsMoving { get; private set; }
 
     void Start()
     {
@@ -37,6 +41,7 @@ public class UnitBasic : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         defaultColor = spriteRenderer.color;
         seeker = GetComponent<Seeker>();
+        animator = GetComponent<Animator>();
 
         if (healthBarPrefab)
         {
@@ -49,6 +54,8 @@ public class UnitBasic : MonoBehaviour
     {
         // attack
         TryAttackNearbyEnemy();
+
+        UpdateAnimatorParameters();
 
         // movement
         if (currentPath == null || pathPending) return;
@@ -64,6 +71,13 @@ public class UnitBasic : MonoBehaviour
         }
     }
 
+    void Stop()
+    {
+        currentPath = null;
+        currentWaypoint = 0;
+        pathPending = false;
+    }
+
     void TryAttackNearbyEnemy()
     {
         if (Time.time - lastAttackTime < attackCooldown) return;
@@ -77,11 +91,32 @@ public class UnitBasic : MonoBehaviour
             if (other != null && other.faction != this.faction)
             {
                 // attack
+                int attackCount = 2; // Total number of attack animations
+                int randomIndex = Random.Range(1, attackCount + 1);
+
+                animator.SetInteger("attackIndex", randomIndex);
+                animator.SetTrigger("attackTrigger");
+
+                Stop(); // Stop when attacking
                 other.TakeDamage(attackDamage);
                 lastAttackTime = Time.time;
                 break;
             }
         }
+    }
+
+    void UpdateAnimatorParameters()
+    {
+        Vector3 movement = transform.position - lastPosition;
+        IsMoving = movement.magnitude > 0.001f;
+        animator.SetBool("isMoving", IsMoving);
+
+        if (movement.x > 0)
+            spriteRenderer.flipX = false;
+        else if (movement.x < 0)
+            spriteRenderer.flipX = true;
+
+        lastPosition = transform.position;
     }
 
     public void TakeDamage(int damage)

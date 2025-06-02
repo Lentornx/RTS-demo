@@ -33,23 +33,10 @@ public class UnitManager : MonoBehaviour
 
     void Start()
     {
-        PopulateTilemapsFromGrid();
         gridLayout = gridParent.GetComponent<GridLayout>();
 
         TouchManager.Instance.OnTouchBegan += HandleTouchBegan;
         TouchManager.Instance.OnTouchEnded += HandleTouchEnded;
-    }
-    void PopulateTilemapsFromGrid()
-    {
-        tilemaps = new List<Tilemap>();
-        foreach (Transform child in gridParent)
-        {
-            Tilemap tilemap = child.GetComponent<Tilemap>();
-            if (tilemap != null)
-            {
-                tilemaps.Add(tilemap);
-            }
-        }
     }
 
     void HandleTouchBegan(Vector2 touchPosition)
@@ -73,17 +60,16 @@ public class UnitManager : MonoBehaviour
                 if (unit != null && unit.faction == "Player")
                 {
                     ToggleSelection(unit);
+                    return;
                 }
             }
-            else
-            {
-                Vector2 targetPosition = Camera.main.ScreenToWorldPoint(touchEndedPosition);
 
-                selectedUnits.RemoveAll(u => u == null); // remove dead units
-                foreach (UnitBasic selectedUnit in selectedUnits)
-                {
-                    selectedUnit.MoveTo(targetPosition);
-                }
+            Vector2 targetPosition = Camera.main.ScreenToWorldPoint(touchEndedPosition);
+
+            selectedUnits.RemoveAll(u => u == null); // remove dead units
+            foreach (UnitBasic selectedUnit in selectedUnits)
+            {
+                selectedUnit.MoveTo(targetPosition);
             }
         }
     }
@@ -123,33 +109,6 @@ public class UnitManager : MonoBehaviour
             Debug.LogError("GridLayout component not found on gridParent.");
             return Vector3Int.zero;
         }
-    }
-
-    // ignores Decoration tilemaps
-    public Tilemap GetTopTilemap(Vector3Int gridPosition)
-    {
-        // !!! tilemaps with complex geometry (e.g. trees) may be erroneously omitted
-        Tilemap topTilemap = null;
-        int topTileOrderInLayer = int.MinValue;
-
-        foreach (var tilemap in tilemaps)
-        {
-            if (tilemap.CompareTag("Decoration"))
-                continue;
-
-            TileBase tile = tilemap.GetTile(gridPosition);
-            if (tile != null)
-            {
-                Renderer renderer = tilemap.GetComponent<Renderer>();
-
-                if (renderer != null && renderer.sortingOrder > topTileOrderInLayer)
-                {
-                    topTileOrderInLayer = renderer.sortingOrder;
-                    topTilemap = tilemap;
-                }
-            }
-        }
-        return topTilemap;
     }
 
     void OnDestroy()
