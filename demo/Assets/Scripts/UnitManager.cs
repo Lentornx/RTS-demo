@@ -1,21 +1,18 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.Tilemaps;
-using UnityEngine.WSA;
 
 public class UnitManager : MonoBehaviour
 {
     public static UnitManager Instance { get; private set; }
 
     private List<UnitBasic> selectedUnits = new List<UnitBasic>();
-    private UnitBasic selectedUnit;
 
     private float touchStartTime = 0;
     private Vector2 touchWorldPosition = Vector2.zero;
     private Vector2 touchScreenPosition = Vector2.zero;
     private Vector3Int touchGridPosition = Vector3Int.zero;
     private Collider2D hitCollider = null;
-    private bool isInitialized = false;
 
     public Transform gridParent;
     private GridLayout gridLayout;
@@ -36,29 +33,10 @@ public class UnitManager : MonoBehaviour
 
     void Start()
     {
-        PopulateTilemapsFromGrid();
         gridLayout = gridParent.GetComponent<GridLayout>();
 
         TouchManager.Instance.OnTouchBegan += HandleTouchBegan;
         TouchManager.Instance.OnTouchEnded += HandleTouchEnded;
-        isInitialized = true;
-    }
-    void PopulateTilemapsFromGrid()
-    {
-        tilemaps = new List<Tilemap>();
-        foreach (Transform child in gridParent)
-        {
-            Tilemap tilemap = child.GetComponent<Tilemap>();
-            if (tilemap != null)
-            {
-                tilemaps.Add(tilemap);
-            }
-        }
-    }
-
-    public bool IsInitialized()
-    {
-        return isInitialized;
     }
 
     void HandleTouchBegan(Vector2 touchPosition)
@@ -79,58 +57,36 @@ public class UnitManager : MonoBehaviour
             if (hitCollider != null)
             {
                 UnitBasic unit = hitCollider.GetComponent<UnitBasic>();
-                if (unit != null)
+                if (unit != null && unit.faction == "Player")
                 {
                     ToggleSelection(unit);
+                    return;
                 }
             }
-            else if (selectedUnit != null)
+
+            Vector2 targetPosition = Camera.main.ScreenToWorldPoint(touchEndedPosition);
+
+            selectedUnits.RemoveAll(u => u == null); // remove dead units
+            foreach (UnitBasic selectedUnit in selectedUnits)
             {
-                Vector2 targetPosition = Camera.main.ScreenToWorldPoint(touchEndedPosition);
-                if (CanMoveTo(touchGridPosition))
-                {
-                    selectedUnit.MoveTo(targetPosition);
-                }
+                selectedUnit.MoveTo(targetPosition);
             }
         }
     }
-
-    bool CanMoveTo(Vector3Int gridPosition)
-    {
-        return true;
-        bool canMove = true;
-        Tilemap topTilemap = GetTopTilemap(gridPosition);
-
-        if (topTilemap != null)
-        {
-            TileBase tile = topTilemap.GetTile(gridPosition);
-
-            if (tile != null && topTilemap.CompareTag("Obstacle"))
-            {
-                canMove = false;
-            }
-        }
-        return canMove;
-    }
-
 
     void ToggleSelection(UnitBasic unit)
     {
-        // deselect if same unit
-        if (selectedUnit == unit)
+        if (selectedUnits.Contains(unit))
         {
-            selectedUnit.Deselect();
-            selectedUnit = null;
+            // deselect and remove the unit
+            unit.Deselect();
+            selectedUnits.Remove(unit);
         }
-        // deselect old unit and select new unit
         else
         {
-            if (selectedUnit != null)
-            {
-                selectedUnit.Deselect();
-            }
-            selectedUnit = unit;
-            selectedUnit.Select();
+            // select and add the unit
+            unit.Select();
+            selectedUnits.Add(unit);
         }
     }
 
@@ -153,33 +109,6 @@ public class UnitManager : MonoBehaviour
             Debug.LogError("GridLayout component not found on gridParent.");
             return Vector3Int.zero;
         }
-    }
-
-    // ignores Decoration tilemaps
-    public Tilemap GetTopTilemap(Vector3Int gridPosition)
-    {
-        // !!! tilemaps with complex geometry (e.g. trees) may be erroneously omitted
-        Tilemap topTilemap = null;
-        int topTileOrderInLayer = int.MinValue;
-
-        foreach (var tilemap in tilemaps)
-        {
-            if (tilemap.CompareTag("Decoration"))
-                continue;
-
-            TileBase tile = tilemap.GetTile(gridPosition);
-            if (tile != null)
-            {
-                Renderer renderer = tilemap.GetComponent<Renderer>();
-
-                if (renderer != null && renderer.sortingOrder > topTileOrderInLayer)
-                {
-                    topTileOrderInLayer = renderer.sortingOrder;
-                    topTilemap = tilemap;
-                }
-            }
-        }
-        return topTilemap;
     }
 
     void OnDestroy()
