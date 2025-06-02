@@ -1,14 +1,14 @@
 using UnityEngine;
 using System;
-
+using UnityEngine.EventSystems;
 public class TouchManager : MonoBehaviour
 {
-    public static TouchManager Instance; 
+    public static TouchManager Instance;
 
-    public event Action<Vector2> OnTouchBegan; 
+    public event Action<Vector2> OnTouchBegan;
     public event Action<Vector2> OnTouchEnded;
     public event Action<Vector2> OnHold;
-    public event Action<Vector2, Vector2> OnDrag; 
+    public event Action<Vector2, Vector2> OnDrag;
 
     private Vector2 lastTouchPosition;
     private bool isDragging = false;
@@ -23,7 +23,7 @@ public class TouchManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.touchCount == 1) 
+        if (Input.touchCount == 1)
         {
             Touch touch = Input.GetTouch(0);
 
@@ -46,11 +46,24 @@ public class TouchManager : MonoBehaviour
                 OnTouchEnded?.Invoke(touch.position);
             }
 
-            if(Time.time - touchStartTime > 5f && !isHolding && touch.phase != TouchPhase.Ended)
+            if (Time.time - touchStartTime > 5f && !isHolding && touch.phase != TouchPhase.Ended)
             {
                 isHolding = true;
                 OnHold?.Invoke(touch.position);
             }
         }
     }
+    public Vector2 GetSelectedMapPosition()
+    {
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            //Debug.Log("Zmieniono pozycje");
+            lastTouchPosition = touch.position;
+        }
+        return lastTouchPosition;
+    }
+
+
+
 }
