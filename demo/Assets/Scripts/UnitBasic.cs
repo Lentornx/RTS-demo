@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Pathfinding;
+using System.Collections;
 
 
 [RequireComponent(typeof(Seeker))]
@@ -35,6 +36,15 @@ public class UnitBasic : MonoBehaviour
     private Vector3 lastPosition;
     public bool IsMoving { get; private set; }
 
+    // logic parameters
+    private UnitBasic enemy_target = null;
+    public bool aiEnabled;
+    public float detectionRange = 4.5f;
+    public float spawnDesiredProximity = 3.0f;
+    private Vector2 spawnPoint;
+    private double patience = 0;
+
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -42,6 +52,15 @@ public class UnitBasic : MonoBehaviour
         defaultColor = spriteRenderer.color;
         seeker = GetComponent<Seeker>();
         animator = GetComponent<Animator>();
+
+        // logic
+        if (aiEnabled)
+        {
+            StartCoroutine(handleLogic());
+            spawnPoint = transform.position;
+            spriteRenderer.color = Color.red;
+        }
+
 
         if (healthBarPrefab)
         {
@@ -182,10 +201,86 @@ public class UnitBasic : MonoBehaviour
         }
     }
 
+    IEnumerator handleLogic()
+    {
+        while (true)
+        {
+            if (enemy_target == null)
+            {
+                Idle();
+                FindEnemy();
+            }
+            else
+            {
+                if (Vector2.Distance(enemy_target.transform.position, transform.position) > detectionRange)
+                {
+                    MoveTo(transform.position);
+                    enemy_target = null;
+                }
+                else if (Vector2.Distance(enemy_target.transform.position, transform.position) > attackRange)
+                {
+                    ChaseEnemy();
+                }
+                else
+                {
+                    MoveTo(transform.position); // basically stand and fight
+                }
+            }
+            yield return new WaitForSeconds(1f);
+        }
+    }
+    void Idle()
+    {
+        if (Vector2.Distance(spawnPoint, transform.position) > spawnDesiredProximity)
+            MoveTo(spawnPoint);
+        else
+            IdleMovement();
+    }
+
+    void IdleMovement(float radius = 1.5f)
+    {
+        if (Time.time >= patience)
+        {
+            Vector2 originalPosition = transform.position;
+            Vector2 offset = Random.insideUnitCircle * radius;
+            Vector2 targetPosition = originalPosition + offset;
+
+            MoveTo(targetPosition);
+
+            float cooldown = Random.Range(1.5f, 3f);
+            patience = Time.time + cooldown;
+        }
+    }
+
+    void FindEnemy()
+    {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRange);
+        foreach (var hit in hits)
+        {
+            if (hit.gameObject == this.gameObject) continue;
+
+            UnitBasic other = hit.GetComponent<UnitBasic>();
+            if (other != null && other.faction != this.faction)
+            {
+                enemy_target = other;
+                Debug.Log("found enemy");
+            }
+        }
+    }
+    private void ChaseEnemy()
+    {
+        if (enemy_target != null)
+        {
+            MoveTo(enemy_target.transform.position);
+        }
+    }
+
     // For debug purposes: draw attack range in scene view
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, detectionRange);
     }
 }
