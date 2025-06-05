@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Unit_Database
   m_EditorClassIdentifier: 
   objectsData:
-  - <Name>k__BackingField: Rabbit
+  - <Name>k__BackingField: Player unit
     <ID>k__BackingField: 0
     <Size>k__BackingField: {x: 0, y: 0}
-    <Prefab>k__BackingField: {fileID: 6086376313726723189, guid: a45d1d0f34c2a4046a1a7b488d9fc107, type: 3}
+    <Prefab>k__BackingField: {fileID: 6010439972142815606, guid: 37a1b4c5bbf24d841bb3c28b8abbb01b, type: 3}
     <productionTime>k__BackingField: 3
     <requiredWood>k__BackingField: 10

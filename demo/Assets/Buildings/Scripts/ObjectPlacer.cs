@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using Pathfinding;
 
 public class ObjectPlacer : MonoBehaviour
 {
@@ -14,6 +15,23 @@ public class ObjectPlacer : MonoBehaviour
         renderer.sortingLayerName = "Buildings";
         newObject.layer = LayerMask.NameToLayer("Unbuildable");
 
+        UpdatePathfindingGraph(newObject);
         return newObject;
+    }
+
+    void UpdatePathfindingGraph(GameObject placedObject)
+    {
+        Physics2D.SyncTransforms(); // ¿eby collider siê zaktualizowa³
+        Collider2D col = placedObject.GetComponent<Collider2D>();
+        if (col != null)
+        {
+            Bounds bounds = col.bounds;
+            GraphUpdateObject guo = new GraphUpdateObject(bounds);
+            AstarPath.active.UpdateGraphs(guo);
+        }
+        else
+        {
+            Debug.LogWarning("Placed object has no Collider2D. Cannot update pathfinding graph.");
+        }
     }
 }

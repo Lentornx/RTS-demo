@@ -11,7 +11,6 @@ public class UnitManager : MonoBehaviour
     private float touchStartTime = 0;
     private Vector2 touchWorldPosition = Vector2.zero;
     private Vector2 touchScreenPosition = Vector2.zero;
-    private Vector3Int touchGridPosition = Vector3Int.zero;
     private Collider2D hitCollider = null;
 
     public Transform gridParent;
@@ -44,7 +43,6 @@ public class UnitManager : MonoBehaviour
         touchStartTime = Time.time;
         touchWorldPosition = Camera.main.ScreenToWorldPoint(touchPosition);
         touchScreenPosition = touchPosition;
-        touchGridPosition = GetGridPosition(touchWorldPosition);
 
         hitCollider = Physics2D.OverlapPoint(touchWorldPosition);
     }

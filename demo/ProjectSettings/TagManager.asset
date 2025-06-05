@@ -53,11 +53,11 @@ TagManager:
   - name: Maps
     uniqueID: 1004366443
     locked: 0
-  - name: Units
-    uniqueID: 2647966343
-    locked: 0
   - name: Buildings
     uniqueID: 2710746671
+    locked: 0
+  - name: Units
+    uniqueID: 2647966343
     locked: 0
   - name: UI
     uniqueID: 2982865707

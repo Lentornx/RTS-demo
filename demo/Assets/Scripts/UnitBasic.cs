@@ -56,9 +56,9 @@ public class UnitBasic : MonoBehaviour
         // logic
         if (aiEnabled)
         {
-            StartCoroutine(handleLogic());
+            StartCoroutine(HandleAILogic());
             spawnPoint = transform.position;
-            spriteRenderer.color = Color.red;
+            //spriteRenderer.color = Color.red;
         }
 
 
@@ -78,7 +78,11 @@ public class UnitBasic : MonoBehaviour
 
         // movement
         if (currentPath == null || pathPending) return;
-        if (currentWaypoint >= currentPath.vectorPath.Count) return;
+        if (currentWaypoint >= currentPath.vectorPath.Count)
+        {
+            ResolveOverlap();
+            return;
+        }
 
         Vector3 direction = (currentPath.vectorPath[currentWaypoint] - transform.position).normalized;
         Vector3 movement = direction * moveSpeed * Time.deltaTime;
@@ -95,6 +99,28 @@ public class UnitBasic : MonoBehaviour
         currentPath = null;
         currentWaypoint = 0;
         pathPending = false;
+        ResolveOverlap();
+    }
+
+    void ResolveOverlap()
+    {
+        float checkRadius = 0.1f;
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, checkRadius);
+
+        foreach (var hit in hits)
+        {
+            if (hit.gameObject != this.gameObject && hit.GetComponent<UnitBasic>() != null)
+            {
+                // nudge unit away
+                Vector3 awayDir = (transform.position - hit.transform.position).normalized;
+                Vector3 offset = awayDir * 0.05f;
+                Vector3 newPos = transform.position + offset;
+
+                MoveTo(newPos);
+                //transform.position = newPos;
+                return;
+            }
+        }
     }
 
     void TryAttackNearbyEnemy()
@@ -187,6 +213,7 @@ public class UnitBasic : MonoBehaviour
         }
     }
 
+    // on completion of calculating the path, before movement begins
     private void OnPathComplete(Path p)
     {
         pathPending = false;
@@ -201,7 +228,7 @@ public class UnitBasic : MonoBehaviour
         }
     }
 
-    IEnumerator handleLogic()
+    IEnumerator HandleAILogic()
     {
         while (true)
         {

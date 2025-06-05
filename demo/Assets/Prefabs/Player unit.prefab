@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8857989792369674021}
   - component: {fileID: 328614834111831757}
   - component: {fileID: 4784697775670074368}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Player unit
   m_TagString: Worker
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1647000953
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 9070488647702268477, guid: eba29ca4dea63d8439da7069e79549ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -169,7 +169,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.455}
+  m_Offset: {x: 0, y: 0.3484894}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -180,7 +180,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.78, y: 0.91}
+  m_Size: {x: 0.78, y: 0.7}
   m_EdgeRadius: 0
 --- !u!114 &4784697775670074368
 MonoBehaviour:
@@ -202,3 +202,6 @@ MonoBehaviour:
   attackDamage: 10
   faction: Player
   maxHealth: 100
+  aiEnabled: 0
+  detectionRange: 4.5
+  spawnDesiredProximity: 3
