@@ -15,7 +15,7 @@ C:/Users/mm620/Documents/GitHub/RTS-demo/demo
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56037
+57634
 Successfully changed project path to: C:/Users/mm620/Documents/GitHub/RTS-demo/demo
 C:/Users/mm620/Documents/GitHub/RTS-demo/demo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/mm620/Documents/GitHub/RTS-demo/demo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26088] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2192910612 [EditorId] 2192910612 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19332] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1781063459 [EditorId] 1781063459 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [26088] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2192910612 [EditorId] 2192910612 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19332] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1781063459 [EditorId] 1781063459 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 23.42 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 16.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011128 seconds.
-- Loaded All Assemblies, in  0.396 seconds
+Registered in 0.013795 seconds.
+- Loaded All Assemblies, in  0.460 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 278 ms
+Android Extension - Scanning For ADB Devices 1286 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.657 seconds
-Domain Reload Profiling: 1051ms
-	BeginReloadAssembly (138ms)
+- Finished resetting the current domain, in  1.616 seconds
+Domain Reload Profiling: 2074ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (133ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (131ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (137ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (132ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (658ms)
+	FinalizeReload (1616ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (603ms)
+		SetupLoadedEditorAssemblies (1561ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (456ms)
+			InitializePlatformSupportModulesInManaged (1414ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (94ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,14 @@ Domain Reload Profiling: 1051ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.800 seconds
-Refreshing native plugins compatible for Editor in 10.93 ms, found 4 plugins.
+Symbol file data-000001A575CE6E30 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A576AA42D0 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A5742AB7D0 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.685 seconds
+Refreshing native plugins compatible for Editor in 9.51 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -133,47 +139,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.944 seconds
-Domain Reload Profiling: 1739ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.852 seconds
+Domain Reload Profiling: 1532ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (562ms)
-		LoadAssemblies (389ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (445ms)
+		LoadAssemblies (345ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (263ms)
-			TypeCache.Refresh (227ms)
-				TypeCache.ScanAssembly (202ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (945ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (853ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (728ms)
+		SetupLoadedEditorAssemblies (652ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (544ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (485ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 16.02 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 15.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4565 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (69.1 KB). Loaded Objects now: 5017.
-Memory consumption went from 155.9 MB to 155.8 MB.
-Total: 6.322000 ms (FindLiveObjects: 0.431700 ms CreateObjectMapping: 0.353900 ms MarkObjects: 5.308800 ms  DeleteObjects: 0.225600 ms)
+Unloading 80 unused Assets / (68.8 KB). Loaded Objects now: 5017.
+Memory consumption went from 156.0 MB to 156.0 MB.
+Total: 4.121400 ms (FindLiveObjects: 0.377700 ms CreateObjectMapping: 0.130900 ms MarkObjects: 3.400300 ms  DeleteObjects: 0.211100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,13 +193,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 11244.948869 seconds.
+  path: Assets/mapka-las/mapka_pustynia/pustynia2.tmx
+  artifactKey: Guid(f039847133ba68645b7b20c28c262656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/pustynia2.tmx using Guid(f039847133ba68645b7b20c28c262656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b877d13dee4758ffd5758b40ae51646a') in 0.320002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1541
+========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 57.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 5017.
-Memory consumption went from 81.5 MB to 81.5 MB.
-Total: 4.326000 ms (FindLiveObjects: 0.316100 ms CreateObjectMapping: 0.130900 ms MarkObjects: 3.844400 ms  DeleteObjects: 0.033700 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 5025.
+Memory consumption went from 82.2 MB to 82.2 MB.
+Total: 6.528600 ms (FindLiveObjects: 0.539800 ms CreateObjectMapping: 0.459600 ms MarkObjects: 5.493700 ms  DeleteObjects: 0.034200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -210,5 +224,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
+Received Import Request.
+  Time since last request: 631.062929 seconds.
+  path: Assets/mapka-las/mapka_pustynia/kolekcja2.tsx
+  artifactKey: Guid(cc211fb9472dc2e4a8b501fd1155b753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/kolekcja2.tsx using Guid(cc211fb9472dc2e4a8b501fd1155b753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bf9036202297d3a56eb7f2a262fdf8') in 0.018780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/mapka-las/mapka_pustynia/pustynia2.tmx
+  artifactKey: Guid(f039847133ba68645b7b20c28c262656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/pustynia2.tmx using Guid(f039847133ba68645b7b20c28c262656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd9a9362d7794fb30426f5d84b67460') in 0.218245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1540
+========================================================================
+Received Import Request.
+  Time since last request: 472.862820 seconds.
+  path: Assets/mapka-las/mapka_pustynia/kolekcja2.tsx
+  artifactKey: Guid(cc211fb9472dc2e4a8b501fd1155b753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/kolekcja2.tsx using Guid(cc211fb9472dc2e4a8b501fd1155b753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf294e7ecfa1762915b5c9995362162b') in 0.015958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/mapka-las/mapka_pustynia/pustynia2.tmx
+  artifactKey: Guid(f039847133ba68645b7b20c28c262656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/pustynia2.tmx using Guid(f039847133ba68645b7b20c28c262656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef10f64c31d7586fcb6d6b041f4587e') in 0.196756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1486

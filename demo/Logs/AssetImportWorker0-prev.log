@@ -15,7 +15,7 @@ C:/Users/mm620/Documents/GitHub/RTS-demo/demo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56037
+57634
 Successfully changed project path to: C:/Users/mm620/Documents/GitHub/RTS-demo/demo
 C:/Users/mm620/Documents/GitHub/RTS-demo/demo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/mm620/Documents/GitHub/RTS-demo/demo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17148] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 279130671 [EditorId] 279130671 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [576] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 676903816 [EditorId] 676903816 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17148] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 279130671 [EditorId] 279130671 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [576] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 676903816 [EditorId] 676903816 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 21.67 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 17.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012370 seconds.
-- Loaded All Assemblies, in  0.400 seconds
+Registered in 0.013012 seconds.
+- Loaded All Assemblies, in  0.467 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 271 ms
+Android Extension - Scanning For ADB Devices 1286 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.662 seconds
-Domain Reload Profiling: 1059ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  1.612 seconds
+Domain Reload Profiling: 2078ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (132ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (138ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (135ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (662ms)
+	FinalizeReload (1613ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (609ms)
+		SetupLoadedEditorAssemblies (1553ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (454ms)
+			InitializePlatformSupportModulesInManaged (1405ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (101ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,14 @@ Domain Reload Profiling: 1059ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.810 seconds
-Refreshing native plugins compatible for Editor in 9.15 ms, found 4 plugins.
+Symbol file data-000001C305002440 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2C1139050 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C3056A1010 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.681 seconds
+Refreshing native plugins compatible for Editor in 9.77 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -133,47 +139,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.927 seconds
-Domain Reload Profiling: 1731ms
-	BeginReloadAssembly (146ms)
+- Finished resetting the current domain, in  0.832 seconds
+Domain Reload Profiling: 1508ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (571ms)
-		LoadAssemblies (382ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (353ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (274ms)
-			TypeCache.Refresh (241ms)
-				TypeCache.ScanAssembly (215ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (928ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (833ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (722ms)
+		SetupLoadedEditorAssemblies (654ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
+			InitializePlatformSupportModulesInManaged (24ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (545ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (485ms)
 			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 15.40 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 15.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4565 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (69.1 KB). Loaded Objects now: 5017.
-Memory consumption went from 155.9 MB to 155.8 MB.
-Total: 7.633300 ms (FindLiveObjects: 0.463200 ms CreateObjectMapping: 0.509700 ms MarkObjects: 6.419500 ms  DeleteObjects: 0.239100 ms)
+Unloading 80 unused Assets / (68.7 KB). Loaded Objects now: 5017.
+Memory consumption went from 156.0 MB to 156.0 MB.
+Total: 6.009800 ms (FindLiveObjects: 0.429200 ms CreateObjectMapping: 0.491200 ms MarkObjects: 4.859800 ms  DeleteObjects: 0.227200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -188,20 +194,92 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 28571.596903 seconds.
-  path: Assets/Scripts/UnitBasic.cs
-  artifactKey: Guid(dcb4fdb65f7b3f9419965d9228a330df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UnitBasic.cs using Guid(dcb4fdb65f7b3f9419965d9228a330df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f71469963b23224d3ed6291fa9afc4') in 0.003770 seconds
+  Time since last request: 11244.908153 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tree.tsx
+  artifactKey: Guid(13ce88ee9e7bf6b4f8e3b776cbee6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tree.tsx using Guid(13ce88ee9e7bf6b4f8e3b776cbee6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891eb760c253b7f0101a49e8ad520aa6') in 0.033367 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 867
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Foam.tsx
+  artifactKey: Guid(91c47fb7b8578904fb15daf1f0fc0fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Foam.tsx using Guid(91c47fb7b8578904fb15daf1f0fc0fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a66fa9b3117b79e2e7ddf34ad4bd59') in 0.011029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 578
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Rocks_03.tsx
+  artifactKey: Guid(be0deb45a2b71fa439d74a70e873c411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Rocks_03.tsx using Guid(be0deb45a2b71fa439d74a70e873c411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982ba4e077c57b6882ee3c8c51bb8974') in 0.005379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Water.tsx
+  artifactKey: Guid(86c54e5433be1064fad802a4c87b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Water.tsx using Guid(86c54e5433be1064fad802a4c87b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593cf3a8443b2c52b4567f9a10b98a77') in 0.002098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/mapka-las/mapka_pustynia/spr_campfire_idle.tsx
+  artifactKey: Guid(ceba4171af5675548b32bd168e2acffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/spr_campfire_idle.tsx using Guid(ceba4171af5675548b32bd168e2acffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2576b5e2c08134e38c66840a9580da9b') in 0.001742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tilemap_Elevation.tsx
+  artifactKey: Guid(692a4eac259c73345a6645a7d756552e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tilemap_Elevation.tsx using Guid(692a4eac259c73345a6645a7d756552e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06af886414faea07c56c9e2fc9144f3e') in 0.005635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/mapka-las/mapka_pustynia/pustynia_obrazki.tsx
+  artifactKey: Guid(56242f0eccae8c5418698e57dabf9d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/pustynia_obrazki.tsx using Guid(56242f0eccae8c5418698e57dabf9d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa14db1bbf4f021fdd03ddec46eaec35') in 0.022537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/mapka-las/mapka_pustynia/kolekcja2.tsx
+  artifactKey: Guid(cc211fb9472dc2e4a8b501fd1155b753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/kolekcja2.tsx using Guid(cc211fb9472dc2e4a8b501fd1155b753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b25fede34f202c04576e3b80456c31') in 0.016279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Rocks_01.tsx
+  artifactKey: Guid(abc792d21afb6364bbd372b031eabb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Rocks_01.tsx using Guid(abc792d21afb6364bbd372b031eabb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8c582bdf8a2f8db1c4cdf9a6a2da2d') in 0.006325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tilemap_Flat.tsx
+  artifactKey: Guid(96b2aca420446684287e8294b8de8f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tilemap_Flat.tsx using Guid(96b2aca420446684287e8294b8de8f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8798d73cd8a428d177f44d0a75921a6f') in 0.006881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 322
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 50.96 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 5017.
-Memory consumption went from 80.9 MB to 80.8 MB.
-Total: 4.288200 ms (FindLiveObjects: 0.322200 ms CreateObjectMapping: 0.127900 ms MarkObjects: 3.802700 ms  DeleteObjects: 0.033400 ms)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 5018.
+Memory consumption went from 81.9 MB to 81.9 MB.
+Total: 6.182500 ms (FindLiveObjects: 0.466200 ms CreateObjectMapping: 0.348100 ms MarkObjects: 5.333500 ms  DeleteObjects: 0.033500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -219,12 +297,145 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1269.123447 seconds.
-  path: Assets/Scripts/UnitBasic.cs
-  artifactKey: Guid(dcb4fdb65f7b3f9419965d9228a330df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UnitBasic.cs using Guid(dcb4fdb65f7b3f9419965d9228a330df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5449c21bb8d60c147793406925b9d74') in 0.001526 seconds
+  Time since last request: 631.308848 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Foam.tsx
+  artifactKey: Guid(91c47fb7b8578904fb15daf1f0fc0fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Foam.tsx using Guid(91c47fb7b8578904fb15daf1f0fc0fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976feb7d33064f1d67e177a36fe17ae2') in 0.011298 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 578
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tree.tsx
+  artifactKey: Guid(13ce88ee9e7bf6b4f8e3b776cbee6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tree.tsx using Guid(13ce88ee9e7bf6b4f8e3b776cbee6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3325d0bb6fe46610ab5808ea3551e552') in 0.016062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 867
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Rocks_03.tsx
+  artifactKey: Guid(be0deb45a2b71fa439d74a70e873c411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Rocks_03.tsx using Guid(be0deb45a2b71fa439d74a70e873c411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75394f904351538a01db184085bf8141') in 0.005933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Water.tsx
+  artifactKey: Guid(86c54e5433be1064fad802a4c87b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Water.tsx using Guid(86c54e5433be1064fad802a4c87b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86b2311b7b467e180e040b859c8df0d') in 0.002034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/mapka-las/mapka_pustynia/spr_campfire_idle.tsx
+  artifactKey: Guid(ceba4171af5675548b32bd168e2acffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/spr_campfire_idle.tsx using Guid(ceba4171af5675548b32bd168e2acffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ee15e59a8ac02bb888b586ca14691f') in 0.001719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tilemap_Elevation.tsx
+  artifactKey: Guid(692a4eac259c73345a6645a7d756552e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tilemap_Elevation.tsx using Guid(692a4eac259c73345a6645a7d756552e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8924a0544f15b0236b63ec9b413dd7') in 0.005482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/mapka-las/mapka_pustynia/pustynia_obrazki.tsx
+  artifactKey: Guid(56242f0eccae8c5418698e57dabf9d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/pustynia_obrazki.tsx using Guid(56242f0eccae8c5418698e57dabf9d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f432a89e6b5602b83a46434bfc145cfd') in 0.020849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Rocks_01.tsx
+  artifactKey: Guid(abc792d21afb6364bbd372b031eabb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Rocks_01.tsx using Guid(abc792d21afb6364bbd372b031eabb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf39e463505ede6b6fd979bbaa8241c8') in 0.006508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tilemap_Flat.tsx
+  artifactKey: Guid(96b2aca420446684287e8294b8de8f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tilemap_Flat.tsx using Guid(96b2aca420446684287e8294b8de8f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed5b5bf8a5d6568d80401dd42a9397f') in 0.006184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 322
+========================================================================
+Received Import Request.
+  Time since last request: 473.022354 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Foam.tsx
+  artifactKey: Guid(91c47fb7b8578904fb15daf1f0fc0fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Foam.tsx using Guid(91c47fb7b8578904fb15daf1f0fc0fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f42ce7795f9dbcd7b004a52a1fd9d8') in 0.011914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 578
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tree.tsx
+  artifactKey: Guid(13ce88ee9e7bf6b4f8e3b776cbee6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tree.tsx using Guid(13ce88ee9e7bf6b4f8e3b776cbee6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1435e4c22c2f448ffee6b642738a41a9') in 0.016833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 866
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Rocks_03.tsx
+  artifactKey: Guid(be0deb45a2b71fa439d74a70e873c411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Rocks_03.tsx using Guid(be0deb45a2b71fa439d74a70e873c411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5e520c97f6cf4a740f858af0772e8d') in 0.005334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Water.tsx
+  artifactKey: Guid(86c54e5433be1064fad802a4c87b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Water.tsx using Guid(86c54e5433be1064fad802a4c87b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7d75eba13e99f4e1b5eadc49fe0a45') in 0.001439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/mapka-las/mapka_pustynia/spr_campfire_idle.tsx
+  artifactKey: Guid(ceba4171af5675548b32bd168e2acffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/spr_campfire_idle.tsx using Guid(ceba4171af5675548b32bd168e2acffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0163d75a75e356287720fd5ddeec302') in 0.002362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tilemap_Elevation.tsx
+  artifactKey: Guid(692a4eac259c73345a6645a7d756552e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tilemap_Elevation.tsx using Guid(692a4eac259c73345a6645a7d756552e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769a99b65abb780f195ad75be4cc5a5d') in 0.005410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/mapka-las/mapka_pustynia/pustynia_obrazki.tsx
+  artifactKey: Guid(56242f0eccae8c5418698e57dabf9d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/pustynia_obrazki.tsx using Guid(56242f0eccae8c5418698e57dabf9d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b83b1e8d776dade522eb25ecc915ad2') in 0.024666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Rocks_01.tsx
+  artifactKey: Guid(abc792d21afb6364bbd372b031eabb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Rocks_01.tsx using Guid(abc792d21afb6364bbd372b031eabb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2cac45c396138d4a735dd8af5035b3') in 0.006367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tilemap_Flat.tsx
+  artifactKey: Guid(96b2aca420446684287e8294b8de8f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tilemap_Flat.tsx using Guid(96b2aca420446684287e8294b8de8f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb640c019e6c41478892819171d06fa') in 0.008034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 322
