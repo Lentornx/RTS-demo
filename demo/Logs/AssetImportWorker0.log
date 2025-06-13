@@ -15,7 +15,7 @@ C:/Users/mm620/Documents/GitHub/RTS-demo/demo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63294
+57137
 Successfully changed project path to: C:/Users/mm620/Documents/GitHub/RTS-demo/demo
 C:/Users/mm620/Documents/GitHub/RTS-demo/demo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/mm620/Documents/GitHub/RTS-demo/demo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21284] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1516393317 [EditorId] 1516393317 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22356] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3110599305 [EditorId] 3110599305 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21284] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1516393317 [EditorId] 1516393317 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22356] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3110599305 [EditorId] 3110599305 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 19.08 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 14.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011747 seconds.
-- Loaded All Assemblies, in  0.356 seconds
+Registered in 0.011310 seconds.
+- Loaded All Assemblies, in  0.351 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 248 ms
+Android Extension - Scanning For ADB Devices 369 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.575 seconds
-Domain Reload Profiling: 930ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.809 seconds
+Domain Reload Profiling: 1158ms
+	BeginReloadAssembly (106ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (63ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (61ms)
 	LoadAllAssembliesAndSetupDomain (140ms)
 		LoadAssemblies (103ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (123ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (124ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (576ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (809ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
+		SetupLoadedEditorAssemblies (746ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (369ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (582ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (92ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,14 +118,14 @@ Domain Reload Profiling: 930ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-00000247362DAB30 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-000001DC7607E650 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000247362DAB30 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file data-000001DC7607E650 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002477BD99720 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file data-000001DC76144C40 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.719 seconds
-Refreshing native plugins compatible for Editor in 8.54 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.717 seconds
+Refreshing native plugins compatible for Editor in 16.16 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -139,169 +139,235 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.143 seconds
-Domain Reload Profiling: 1857ms
-	BeginReloadAssembly (156ms)
+- Finished resetting the current domain, in  1.203 seconds
+Domain Reload Profiling: 1915ms
+	BeginReloadAssembly (148ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (470ms)
-		LoadAssemblies (344ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (478ms)
+		LoadAssemblies (351ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (217ms)
+		AnalyzeDomain (216ms)
 			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (153ms)
-			ScanForSourceGeneratedMonoScriptInfo (34ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1143ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1203ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (938ms)
+		SetupLoadedEditorAssemblies (958ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (724ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (668ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 18.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 29.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4565 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 80 unused Assets / (68.8 KB). Loaded Objects now: 5017.
 Memory consumption went from 156.0 MB to 156.0 MB.
-Total: 5.074500 ms (FindLiveObjects: 0.396900 ms CreateObjectMapping: 0.175500 ms MarkObjects: 4.226400 ms  DeleteObjects: 0.274400 ms)
+Total: 6.665100 ms (FindLiveObjects: 0.544300 ms CreateObjectMapping: 0.537900 ms MarkObjects: 5.316200 ms  DeleteObjects: 0.264800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 77310.287963 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bfa03b5f7f8438e19afeea1238dacc') in 0.004136 seconds
+  Time since last request: 102730.055724 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins
+  artifactKey: Guid(ad4287f622187724ba2cf6c10c9a4e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins using Guid(ad4287f622187724ba2cf6c10c9a4e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bdd891235f5e6e073fbc6a45012a9d') in 0.004648 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 35.451061 seconds.
-  path: Assets/Scenes/DesertScene.unity
-  artifactKey: Guid(7d3e85a8eb5056b4884d49574d6c0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DesertScene.unity using Guid(7d3e85a8eb5056b4884d49574d6c0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729af2e87c9cfa65619848c885f44100') in 0.000578 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Buildings
+  artifactKey: Guid(1592abb4ec09aed4eb1eca2e9d5b9713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Buildings using Guid(1592abb4ec09aed4eb1eca2e9d5b9713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2132dc6ab9f1d209dcadc556122af27') in 0.001169 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 314.774149 seconds.
-  path: Assets/Prefabs/UIManager.prefab
-  artifactKey: Guid(3a23ed78744bf9f4e84e4f7d8fbeadfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UIManager.prefab using Guid(3a23ed78744bf9f4e84e4f7d8fbeadfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426f56a2a07d59008eb260963fccc515') in 0.076387 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 47
-========================================================================
-Received Import Request.
-  Time since last request: 6.126799 seconds.
-  path: Assets/Scenes/DesertScene.unity
-  artifactKey: Guid(7d3e85a8eb5056b4884d49574d6c0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DesertScene.unity using Guid(7d3e85a8eb5056b4884d49574d6c0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d060ef97dadcaf15d30fc35aada1f51') in 0.000571 seconds
+  Time since last request: 0.000075 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel
+  artifactKey: Guid(0ea070d1d0a2f38418e2e243bb98ad74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel using Guid(0ea070d1d0a2f38418e2e243bb98ad74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827092b76d02a70ead85c997332f6dcf') in 0.001000 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 79.319361 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea0548f78456de48ca502797b82bfad') in 0.000577 seconds
+  Time since last request: 0.000056 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch
+  artifactKey: Guid(d0cb9daf00b517d4b9b751ae5d6a63da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch using Guid(d0cb9daf00b517d4b9b751ae5d6a63da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0caa98b14465c87033cf531da8223132') in 0.000936 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 13.189637 seconds.
-  path: Assets/Scenes/DesertScene.unity
-  artifactKey: Guid(7d3e85a8eb5056b4884d49574d6c0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DesertScene.unity using Guid(7d3e85a8eb5056b4884d49574d6c0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3509aab359e565b360f49115ba754e') in 0.000585 seconds
+  Time since last request: 0.000097 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.aseprite
+  artifactKey: Guid(00870870fe1b0cb41be5fd4b8efe4a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.aseprite using Guid(00870870fe1b0cb41be5fd4b8efe4a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380052400ffe4862dd02eedf369f30fa') in 0.326943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT
+  artifactKey: Guid(0aa7f92a18e230244bcd5d8b94fa105d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT using Guid(0aa7f92a18e230244bcd5d8b94fa105d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7d8144e3899ff9203a5839c96761df') in 0.000857 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue
+  artifactKey: Guid(95413239f14b409408acd9307b39d428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue using Guid(95413239f14b409408acd9307b39d428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4508420aab520330ac5c6583734f03e2') in 0.001333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.546295 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue
+  artifactKey: Guid(1dad82c9df5e2b647acba4042d41de11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue using Guid(1dad82c9df5e2b647acba4042d41de11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8381bc4671a6db1790a77f2cc310da7b') in 0.000701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.127412 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.aseprite
+  artifactKey: Guid(8cfb7efe96fdab348a23a07bd28dfed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.aseprite using Guid(8cfb7efe96fdab348a23a07bd28dfed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75300a39a0865b22124ed6e1a6c9c4ff') in 0.110840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 4.559962 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue
+  artifactKey: Guid(d4624377fdb673a48b18752ef9ee27e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue using Guid(d4624377fdb673a48b18752ef9ee27e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3355644ace081e3a46cfd2478df5d501') in 0.000696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.087896 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.aseprite
+  artifactKey: Guid(7c405fd2f21981247900d9ed2725a0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.aseprite using Guid(7c405fd2f21981247900d9ed2725a0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa25a6810652c798856e8cb4fdcbefdf') in 0.109173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 7.328448 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Dead
+  artifactKey: Guid(a2fb6d65aa777e44e9e451bafa529173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Dead using Guid(a2fb6d65aa777e44e9e451bafa529173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad5859220f669470fac215f274320c1') in 0.000985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.106854 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Dead/Dead.aseprite
+  artifactKey: Guid(8faac00647594de42a6c7f6c5a553273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Dead/Dead.aseprite using Guid(8faac00647594de42a6c7f6c5a553273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dffa4a627d3738898dfcb913ae911d1') in 0.080955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 7.784554 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer
+  artifactKey: Guid(c3826b511bc681d4ead1ad9f385f2da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer using Guid(c3826b511bc681d4ead1ad9f385f2da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8218865ad1483d8c8cdcc4baf4209383') in 0.001626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.982076 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow
+  artifactKey: Guid(ce7f0919987b27344abb3f3a84e13c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow using Guid(ce7f0919987b27344abb3f3a84e13c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad57c7ebcc7169471041c9641a45104') in 0.000695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.082700 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Blue_(NoArms).png
+  artifactKey: Guid(85b7f49a31c89544287dd1bfe139be6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Blue_(NoArms).png using Guid(85b7f49a31c89544287dd1bfe139be6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615ad676489ca2fa524094be2f4d06e3') in 0.059167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Yellow.png
+  artifactKey: Guid(6cd63ddbc0668574dbe793a7e9c0962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Yellow.png using Guid(6cd63ddbc0668574dbe793a7e9c0962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8d29d4da2124a3434b36c361649687') in 0.072638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Red.png
+  artifactKey: Guid(9f6aac673304d6046a030bf8665daaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Red.png using Guid(9f6aac673304d6046a030bf8665daaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb0a9447affd24a2ffa0226494bf59e') in 0.068368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Purple_(NoArms).png
+  artifactKey: Guid(2abc140dfc3c2194b983efc9ac5a16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Purple_(NoArms).png using Guid(2abc140dfc3c2194b983efc9ac5a16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f160d3e6698ab51db420da1609b2fad') in 0.073621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 18.316328 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple
+  artifactKey: Guid(7425d77e521dbb74e8b1e49f932ff275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple using Guid(7425d77e521dbb74e8b1e49f932ff275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fb6ee7ea465ba46039ab4508ceef99') in 0.001666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.113937 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.aseprite
+  artifactKey: Guid(abe3556d23f1cd542a7e954e201480f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.aseprite using Guid(abe3556d23f1cd542a7e954e201480f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14af96daff13b84afc875dabff28bbe') in 0.112915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-0000024779EC1010 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024779EC1010 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024781193010 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.482 seconds
-Refreshing native plugins compatible for Editor in 8.75 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.382 seconds
-Domain Reload Profiling: 1859ms
-	BeginReloadAssembly (167ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (237ms)
-		LoadAssemblies (306ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1383ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (735ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (549ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 17.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.15 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (42.9 KB). Loaded Objects now: 5029.
-Memory consumption went from 149.9 MB to 149.9 MB.
-Total: 7.263000 ms (FindLiveObjects: 0.661800 ms CreateObjectMapping: 0.505300 ms MarkObjects: 5.953900 ms  DeleteObjects: 0.140700 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 5219.
+Memory consumption went from 82.3 MB to 82.3 MB.
+Total: 5.615000 ms (FindLiveObjects: 0.542800 ms CreateObjectMapping: 0.310500 ms MarkObjects: 4.713100 ms  DeleteObjects: 0.047000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -319,31 +385,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 98.416966 seconds.
-  path: Assets/Scenes/DesertScene.unity
-  artifactKey: Guid(7d3e85a8eb5056b4884d49574d6c0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DesertScene.unity using Guid(7d3e85a8eb5056b4884d49574d6c0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98593a6b325fe32cf1c2aeb8439a4492') in 0.002708 seconds
+  Time since last request: 23.582556 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/Torch_Purple_Controller.controller
+  artifactKey: Guid(cf899b2bf35f35047ba6dc09a31e19f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/Torch_Purple_Controller.controller using Guid(cf899b2bf35f35047ba6dc09a31e19f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ba538c02ab864ccbe774f7d35d6ea2') in 0.002042 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 42.547570 seconds.
-  path: Assets/Scenes/DesertScene.unity
-  artifactKey: Guid(7d3e85a8eb5056b4884d49574d6c0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DesertScene.unity using Guid(7d3e85a8eb5056b4884d49574d6c0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0c0718cc749de3cd742b9a804f3e9f') in 0.000626 seconds
+  Time since last request: 323.879656 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.aseprite
+  artifactKey: Guid(abe3556d23f1cd542a7e954e201480f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.aseprite using Guid(abe3556d23f1cd542a7e954e201480f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed286176cdb3844fabc392dd4aaf851f') in 0.119877 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 55
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-0000024584A0C020 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-000001DC81C90020 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000024780371020 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file data-000001DC78730010 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002477CAAC010 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file data-000001DAA1A87C20 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.464 seconds
-Refreshing native plugins compatible for Editor in 8.66 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.505 seconds
+Refreshing native plugins compatible for Editor in 9.76 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -353,46 +419,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.560 seconds
-Domain Reload Profiling: 2019ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  1.298 seconds
+Domain Reload Profiling: 1798ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (30ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (238ms)
-		LoadAssemblies (300ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (323ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (13ms)
 			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (1561ms)
+	FinalizeReload (1299ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (822ms)
+		SetupLoadedEditorAssemblies (645ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (126ms)
-			ProcessInitializeOnLoadAttributes (597ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (475ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 30.48 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 35.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (43.0 KB). Loaded Objects now: 5033.
-Memory consumption went from 149.9 MB to 149.9 MB.
-Total: 6.569200 ms (FindLiveObjects: 0.491400 ms CreateObjectMapping: 0.541900 ms MarkObjects: 5.329900 ms  DeleteObjects: 0.204800 ms)
+Unloading 52 unused Assets / (43.1 KB). Loaded Objects now: 5223.
+Memory consumption went from 150.3 MB to 150.2 MB.
+Total: 3.837300 ms (FindLiveObjects: 0.352700 ms CreateObjectMapping: 0.147700 ms MarkObjects: 3.252600 ms  DeleteObjects: 0.083100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -408,3 +474,384 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62.981127 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions
+  artifactKey: Guid(46317ce7d4ab98e40b78fe798d502860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions using Guid(46317ce7d4ab98e40b78fe798d502860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08faf37bc396b438e33d3eac8027b8ed') in 0.003725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DC809C2010 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC762379A0 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC81C90020 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.470 seconds
+Refreshing native plugins compatible for Editor in 9.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.401 seconds
+Domain Reload Profiling: 1865ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1401ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (653ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (487ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 19.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (43.2 KB). Loaded Objects now: 5227.
+Memory consumption went from 150.3 MB to 150.2 MB.
+Total: 5.408800 ms (FindLiveObjects: 0.560800 ms CreateObjectMapping: 0.177300 ms MarkObjects: 4.540600 ms  DeleteObjects: 0.128800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DCE4FFF110 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC762379A0 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DAA15F2020 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.561 seconds
+Refreshing native plugins compatible for Editor in 8.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.700 seconds
+Domain Reload Profiling: 2256ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1700ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (906ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (664ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 27.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4549 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (43.2 KB). Loaded Objects now: 5231.
+Memory consumption went from 150.5 MB to 150.5 MB.
+Total: 7.065100 ms (FindLiveObjects: 0.579200 ms CreateObjectMapping: 0.752500 ms MarkObjects: 5.613700 ms  DeleteObjects: 0.118400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DC76733010 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC812E6260 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DC7826C730 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.600 seconds
+Refreshing native plugins compatible for Editor in 11.69 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.232 seconds
+Domain Reload Profiling: 2825ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2233ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (179ms)
+			ProcessInitializeOnLoadAttributes (916ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 48.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4549 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (43.2 KB). Loaded Objects now: 5235.
+Memory consumption went from 150.5 MB to 150.5 MB.
+Total: 6.626000 ms (FindLiveObjects: 0.685800 ms CreateObjectMapping: 0.605500 ms MarkObjects: 5.235300 ms  DeleteObjects: 0.098200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 340.635788 seconds.
+  path: Assets/Prefabs/Neutral unit.prefab
+  artifactKey: Guid(9aefb7e01d23c4347b9b69b24f98df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Neutral unit.prefab using Guid(9aefb7e01d23c4347b9b69b24f98df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Torch_Purple_Controller) you have used is not valid. Animations will not play
+0x00007ff6cc14282d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff6cc1477d9 (Unity) StackWalker::ShowCallstack
+0x00007ff6cd117831 (Unity) GetStacktrace
+0x00007ff6cd7d5d52 (Unity) DebugStringToFile
+0x00007ff6cc4bea23 (Unity) AnimatorControllerPlayable::GenerateGraph
+0x00007ff6cc4c3a35 (Unity) AnimatorControllerPlayable::SetAnimatorController
+0x00007ff6cc46697e (Unity) Animator::CreateInternalControllerPlayable
+0x00007ff6cc4636b0 (Unity) Animator::AddToManager
+0x00007ff6cc463ce4 (Unity) Animator::AwakeFromLoad
+0x00007ff6cc11e167 (Unity) AwakeFromLoadQueue::InvokeAwakeFromLoad
+0x00007ff6cc1190c6 (Unity) AwakeFromLoadQueue::AwakeFromLoadAllQueues
+0x00007ff6cbabee4e (Unity) AwakeAndActivateClonedObjects
+0x00007ff6ccc72db8 (Unity) InstantiateObjectRemoveAllNonAnimationComponents
+0x00007ff6cb6769b6 (Unity) EditorUtility_CUSTOM_Internal_InstantiateRemoveAllNonAnimationComponentsSingle_Injected
+0x000001dc784e0be8 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle_Injected (UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&)
+0x000001dc784e0b2b (Mono JIT Code) UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+0x000001dc784e0a83 (Mono JIT Code) UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+0x000001dc784e0693 (Mono JIT Code) UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+0x000001dc784e04c3 (Mono JIT Code) UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+0x000001dc784dc84b (Mono JIT Code) UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+0x000001dc784dc0e3 (Mono JIT Code) UnityEditor.GameObjectInspector:GetPreviewData (bool)
+0x000001dc784dbc5b (Mono JIT Code) UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x000001dc784d0775 (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+0x000001dc784d02f3 (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x000001dc784d04d0 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007ff8ef22e274 (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff8ef16eb74 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3066)
+0x00007ff8ef16ed0c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3113)
+0x00007ff6cc059d14 (Unity) scripting_method_invoke
+0x00007ff6cc037e34 (Unity) ScriptingInvocation::Invoke
+0x00007ff6cd3f3abd (Unity) MonoCreateAssetPreview
+0x00007ff6cd3f28b0 (Unity) WriteAssetPreviewToFile
+0x00007ff6cd3f3043 (Unity) WritePreviews
+0x00007ff6cd3e9f7f (Unity) PreviewImporter::GenerateAssetData
+0x00007ff6cd4344e5 (Unity) ImportToObjects
+0x00007ff6cd4334cc (Unity) ImportAsset
+0x00007ff6cd458328 (Unity) AssetImportWorker::Import
+0x00007ff6cd4bfdd2 (Unity) <lambda_183697078dc22ecb201e4599e9982eaf>::operator()
+0x00007ff6cd4fbf32 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff6cd4e7ede (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff6cd4e9b44 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff6cd4fa2dc (Unity) IOService::Run
+0x00007ff6cd4ce65f (Unity) AssetImportWorkerClient::Run
+0x00007ff6cd499227 (Unity) RunAssetImportWorkerClientV2
+0x00007ff6cd4992ab (Unity) RunAssetImporterV2
+0x00007ff6ccc9a750 (Unity) Application::InitializeProject
+0x00007ff6cd123635 (Unity) WinMain
+0x00007ff6ce507dbe (Unity) __scrt_common_main_seh
+0x00007ff991807374 (KERNEL32) BaseThreadInitThunk
+0x00007ff9937bcc91 (ntdll) RtlUserThreadStart
+
+ -> (artifact id: 'aed20b90b173e04e9d99dcecd9d5b602') in 0.288096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 18.252759 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/Torch_Purple_Animator.controller
+  artifactKey: Guid(cf899b2bf35f35047ba6dc09a31e19f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/Torch_Purple_Animator.controller using Guid(cf899b2bf35f35047ba6dc09a31e19f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9832e82dd6e6434770333f2359403139') in 0.002488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 5.658319 seconds.
+  path: Assets/Prefabs/Neutral unit.prefab
+  artifactKey: Guid(9aefb7e01d23c4347b9b69b24f98df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Neutral unit.prefab using Guid(9aefb7e01d23c4347b9b69b24f98df23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d79ca1ec28900f91d9b5bb7e12cd94') in 0.013015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 243.711844 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue
+  artifactKey: Guid(01dfcad4ba87b9145a2cf127c154dfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue using Guid(01dfcad4ba87b9145a2cf127c154dfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56abff91f4e8cffd2420fd59e80b4ad') in 0.001917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.117284 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.aseprite
+  artifactKey: Guid(09cba954a078d794483fbfba2e6df818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.aseprite using Guid(09cba954a078d794483fbfba2e6df818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecca5cd9180d3d8479f68c84283cf099') in 0.144267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 11.375549 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Purple
+  artifactKey: Guid(3fb0e84ea5eafab44aaf50b7e3696744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Purple using Guid(3fb0e84ea5eafab44aaf50b7e3696744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd604cb6cb14601c889422a2cf843f214') in 0.000647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.114039 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Purple/Pawn_Purple.aseprite
+  artifactKey: Guid(47f4f960bdf0c3543bfe1d0c7ff311b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Purple/Pawn_Purple.aseprite using Guid(47f4f960bdf0c3543bfe1d0c7ff311b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f79b99550056e80b727605a6e5e7abe') in 0.100652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 173.628984 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins
+  artifactKey: Guid(42abba15e89a7314e95eb977d64888ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins using Guid(42abba15e89a7314e95eb977d64888ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82aae33b813d6793bd238cc511888a4a') in 0.000849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.370376 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights
+  artifactKey: Guid(62224d930a2f3dc40881b38059b693a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights using Guid(62224d930a2f3dc40881b38059b693a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18aa2a5b347b5b991cfe908ed821819d') in 0.000511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.406359 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops
+  artifactKey: Guid(4e5bc63bed1dad24e83f8c7b0f127274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops using Guid(4e5bc63bed1dad24e83f8c7b0f127274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a12480a3ce6e612a1c7cb7b32d3dbd') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.787854 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel
+  artifactKey: Guid(6df169feb9a5ff249bfb0c026d2b6521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel using Guid(6df169feb9a5ff249bfb0c026d2b6521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656300c9b991335540f61fdc8f9a3bcf') in 0.000662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.589203 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT
+  artifactKey: Guid(302322eceeedcd44aab6b56f744ee7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT using Guid(302322eceeedcd44aab6b56f744ee7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67efc81c60076b6cd8e5357e8fcc5aa0') in 0.000558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
