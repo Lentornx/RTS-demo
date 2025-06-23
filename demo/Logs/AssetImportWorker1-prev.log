@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16085 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pl' Physical Memory: 24163 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+D:\Unity Editor\2022.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/mm620/Documents/GitHub/RTS-demo/demo
+C:/Users/ADMIN/Documents/GitHub/RTS-demo/demo
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63294
-Successfully changed project path to: C:/Users/mm620/Documents/GitHub/RTS-demo/demo
-C:/Users/mm620/Documents/GitHub/RTS-demo/demo
+52021
+Successfully changed project path to: C:/Users/ADMIN/Documents/GitHub/RTS-demo/demo
+C:/Users/ADMIN/Documents/GitHub/RTS-demo/demo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,68 +49,65 @@ C:/Users/mm620/Documents/GitHub/RTS-demo/demo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18320] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1230479616 [EditorId] 1230479616 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18196] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1240222325 [EditorId] 1240222325 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GS9EOL4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18320] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1230479616 [EditorId] 1230479616 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EM54VM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18196] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1240222325 [EditorId] 1240222325 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GS9EOL4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 19.14 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 67.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/mm620/Documents/GitHub/RTS-demo/demo/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ADMIN/Documents/GitHub/RTS-demo/demo/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
-    Vendor:   NVIDIA
-    VRAM:     3965 MB
-    Driver:   32.0.15.7602
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     12081 MB
+    Driver:   31.0.101.2134
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Mono path[0] = 'D:/Unity Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010008 seconds.
-- Loaded All Assemblies, in  0.357 seconds
+Register platform support module: D:/Unity Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017731 seconds.
+- Loaded All Assemblies, in  1.479 seconds
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 396 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.731 seconds
-Domain Reload Profiling: 1086ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  1.172 seconds
+Domain Reload Profiling: 2650ms
+	BeginReloadAssembly (451ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (141ms)
-		LoadAssemblies (108ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (115ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (155ms)
+	LoadAllAssembliesAndSetupDomain (721ms)
+		LoadAssemblies (450ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (137ms)
-				TypeCache.ScanAssembly (123ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (732ms)
+		AnalyzeDomain (714ms)
+			TypeCache.Refresh (711ms)
+				TypeCache.ScanAssembly (668ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1173ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (672ms)
+		SetupLoadedEditorAssemblies (957ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (513ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (21ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (732ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,16 +115,9 @@ Domain Reload Profiling: 1086ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-0000020786876E50 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020786876E50 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020741182A70 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.690 seconds
-Refreshing native plugins compatible for Editor in 9.61 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.252 seconds
+Refreshing native plugins compatible for Editor in 31.27 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -139,47 +129,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.242 seconds
-Domain Reload Profiling: 1927ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  2.389 seconds
+Domain Reload Profiling: 4628ms
+	BeginReloadAssembly (479ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (459ms)
-		LoadAssemblies (349ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (1508ms)
+		LoadAssemblies (1224ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (190ms)
-			TypeCache.Refresh (153ms)
-				TypeCache.ScanAssembly (133ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1243ms)
+		AnalyzeDomain (590ms)
+			TypeCache.Refresh (483ms)
+				TypeCache.ScanAssembly (436ms)
+			ScanForSourceGeneratedMonoScriptInfo (80ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2390ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (985ms)
+		SetupLoadedEditorAssemblies (1874ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (142ms)
-			ProcessInitializeOnLoadAttributes (728ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			BeforeProcessingInitializeOnLoad (256ms)
+			ProcessInitializeOnLoadAttributes (1473ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 16.95 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (28ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 35.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4565 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (68.8 KB). Loaded Objects now: 5017.
-Memory consumption went from 156.0 MB to 156.0 MB.
-Total: 4.825500 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.237000 ms MarkObjects: 3.978000 ms  DeleteObjects: 0.258800 ms)
+Unloading 80 unused Assets / (69.1 KB). Loaded Objects now: 5014.
+Memory consumption went from 150.8 MB to 150.8 MB.
+Total: 9.960500 ms (FindLiveObjects: 0.694800 ms CreateObjectMapping: 1.105200 ms MarkObjects: 7.890700 ms  DeleteObjects: 0.268400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -195,18 +185,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 704344.849236 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(3e6995476bb45bc4ba3fc19b4bf4fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIManager.cs using Guid(3e6995476bb45bc4ba3fc19b4bf4fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226be94a1de10245247f5e4ce2cb98e7') in 0.003577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-00000207911F9030 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207911F9030 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020790623630 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.485 seconds
-Refreshing native plugins compatible for Editor in 8.92 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.497 seconds
+Refreshing native plugins compatible for Editor in 36.00 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -214,46 +205,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.380 seconds
-Domain Reload Profiling: 1860ms
-	BeginReloadAssembly (165ms)
+- Finished resetting the current domain, in  4.174 seconds
+Domain Reload Profiling: 5653ms
+	BeginReloadAssembly (529ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (24ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (240ms)
-		LoadAssemblies (307ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (724ms)
+		LoadAssemblies (1005ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (14ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1381ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (4176ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (739ms)
+		SetupLoadedEditorAssemblies (2020ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (16ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (551ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (312ms)
+			ProcessInitializeOnLoadAttributes (1457ms)
+			ProcessInitializeOnLoadMethodAttributes (206ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 19.68 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 30.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4549 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (42.9 KB). Loaded Objects now: 5022.
-Memory consumption went from 150.1 MB to 150.1 MB.
-Total: 7.260600 ms (FindLiveObjects: 0.481600 ms CreateObjectMapping: 0.459300 ms MarkObjects: 6.045100 ms  DeleteObjects: 0.272900 ms)
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (43.4 KB). Loaded Objects now: 5018.
+Memory consumption went from 145.4 MB to 145.3 MB.
+Total: 16.845700 ms (FindLiveObjects: 1.115500 ms CreateObjectMapping: 1.114300 ms MarkObjects: 14.466500 ms  DeleteObjects: 0.146700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -272,16 +263,9 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-00000207851E4010 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000207851E4010 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020791A85BF0 doesn't match image C:\Users\mm620\Documents\GitHub\RTS-demo\demo\Library\ScriptAssemblies\SuperTiled2Unity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.451 seconds
-Refreshing native plugins compatible for Editor in 9.10 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.446 seconds
+Refreshing native plugins compatible for Editor in 35.54 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -289,46 +273,1662 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.536 seconds
-Domain Reload Profiling: 1983ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  4.034 seconds
+Domain Reload Profiling: 5468ms
+	BeginReloadAssembly (441ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (28ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (229ms)
-		LoadAssemblies (290ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (791ms)
+		LoadAssemblies (946ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1537ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (4036ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (810ms)
+		SetupLoadedEditorAssemblies (1773ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (125ms)
-			ProcessInitializeOnLoadAttributes (587ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (271ms)
+			ProcessInitializeOnLoadAttributes (1358ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 75.11 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 42.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4550 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (42.9 KB). Loaded Objects now: 5023.
+Memory consumption went from 145.6 MB to 145.6 MB.
+Total: 14.593600 ms (FindLiveObjects: 0.824300 ms CreateObjectMapping: 1.117600 ms MarkObjects: 12.505100 ms  DeleteObjects: 0.144900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 166.470042 seconds.
+  path: Assets/Scripts/UICode.cs
+  artifactKey: Guid(2710e8546440e4d4c93a15d983503986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UICode.cs using Guid(2710e8546440e4d4c93a15d983503986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6750a8e680e6ef18c4e8968ba5ed1e3') in 0.004407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 640.951193 seconds.
+  path: Assets/Images_UI/guzik pauzy.png
+  artifactKey: Guid(9ce70d7c31b9cb94ebeb05ee7b166b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/guzik pauzy.png using Guid(9ce70d7c31b9cb94ebeb05ee7b166b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2019c9480669269e1ab3132c5a4614b4') in 0.298786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Images_UI/info_button.png
+  artifactKey: Guid(6f60df2597888e74ba65973f0c64bffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/info_button.png using Guid(6f60df2597888e74ba65973f0c64bffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca473a48b1bd714d7f0dbe2050f8774c') in 0.051956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Images_UI/MenuPauzyOpcje_Wyjdzdomenu.png
+  artifactKey: Guid(af98027eade126f4d84ffbd223560624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/MenuPauzyOpcje_Wyjdzdomenu.png using Guid(af98027eade126f4d84ffbd223560624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc520712c64c9bc9a47ee709d4e60b5') in 0.052690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Images_UI/SZPITAL POLOWY_noinfo.png
+  artifactKey: Guid(a11269acb5c498647a95fa39492f6246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/SZPITAL POLOWY_noinfo.png using Guid(a11269acb5c498647a95fa39492f6246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073f36ff5e321b298572b3a8a9c3492e') in 0.061131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Images_UI/MenuPauzyOpcje_Mapa.png
+  artifactKey: Guid(9a43347a07163ea4bb74e86925017e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/MenuPauzyOpcje_Mapa.png using Guid(9a43347a07163ea4bb74e86925017e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c1bf6ddfb1f5afffe0ed91fc0ff6d0') in 0.053434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Images_UI/MenuPauzyOpcje_Interfejs.png
+  artifactKey: Guid(da8626b8d6f53ba4d8103ed07ec9df41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/MenuPauzyOpcje_Interfejs.png using Guid(da8626b8d6f53ba4d8103ed07ec9df41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964fbd50de80fe6f2761c3ba8bef11cf') in 0.058501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Images_UI/WARSZTAT OBLEZNICZY_noinfo.png
+  artifactKey: Guid(a9f373efbf0d3584bacd7525de2489a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/WARSZTAT OBLEZNICZY_noinfo.png using Guid(a9f373efbf0d3584bacd7525de2489a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffe1f7f477c9d23305a20c7f61f0b17') in 0.066768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Images_UI/WARSZTAT_noinfo.png
+  artifactKey: Guid(92ffaec6a4741524aa4810b24fe5a0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/WARSZTAT_noinfo.png using Guid(92ffaec6a4741524aa4810b24fe5a0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ccfa66e931784958a48a6fa268f65b') in 0.055650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Images_UI/MenuPauzyOpcje_Zgłosproblem.png
+  artifactKey: Guid(d896edaf596f050439602809c06b2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/MenuPauzyOpcje_Zgłosproblem.png using Guid(d896edaf596f050439602809c06b2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a98500b9f56299974b02a8cd4b2a950') in 0.052775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Images_UI/menu pauzy.png
+  artifactKey: Guid(6669ff5f13aaa114799fc7dc177210f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/menu pauzy.png using Guid(6669ff5f13aaa114799fc7dc177210f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840682622d6b6e80a1b99e77ec8b3c01') in 0.072945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Images_UI/tiles panel dolny budynek.png
+  artifactKey: Guid(60d4fe9d491410f4b83003022150cf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/tiles panel dolny budynek.png using Guid(60d4fe9d491410f4b83003022150cf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10501d3586e609333f46579a4fcb2d1') in 0.063048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.277124 seconds.
+  path: Assets/Images_UI/info_button.png
+  artifactKey: Guid(6f60df2597888e74ba65973f0c64bffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/info_button.png using Guid(6f60df2597888e74ba65973f0c64bffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5208362fb7963b3d3eefff25931fa562') in 0.133082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 21.360106 seconds.
+  path: Assets/Images_UI/KOSZARY_noinfo.png
+  artifactKey: Guid(07a3261a98c828748993432c9b2c38a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/KOSZARY_noinfo.png using Guid(07a3261a98c828748993432c9b2c38a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81bc847dfacff3c0f055491b95d1fe6') in 0.061130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Images_UI/POSTERUNEK_noinfo.png
+  artifactKey: Guid(c0f0e0c51cf824844a16786d62852444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/POSTERUNEK_noinfo.png using Guid(c0f0e0c51cf824844a16786d62852444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd85c85df650f3959c5bcec43e8707b5') in 0.074173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Images_UI/MenuPauzyOpcje_Wyjdzdomenu.png
+  artifactKey: Guid(af98027eade126f4d84ffbd223560624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/MenuPauzyOpcje_Wyjdzdomenu.png using Guid(af98027eade126f4d84ffbd223560624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade13123d836ce726b788c07e1229726') in 0.067178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Images_UI/MenuPauzyOpcje_Mapa.png
+  artifactKey: Guid(9a43347a07163ea4bb74e86925017e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/MenuPauzyOpcje_Mapa.png using Guid(9a43347a07163ea4bb74e86925017e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75658fa555c5643c670a4b3698a8e64b') in 0.065057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images_UI/MenuPauzyOpcje_Interfejs.png
+  artifactKey: Guid(da8626b8d6f53ba4d8103ed07ec9df41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/MenuPauzyOpcje_Interfejs.png using Guid(da8626b8d6f53ba4d8103ed07ec9df41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6eb5c10b1b92515d9d4299685349a8') in 0.052453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Images_UI/SPICHLERZ_noinfo.png
+  artifactKey: Guid(f59f20851258edd40959dd3892b15137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/SPICHLERZ_noinfo.png using Guid(f59f20851258edd40959dd3892b15137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f469a3e6f34114f4ba672fb70eaae8') in 0.060506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Images_UI/MenuPauzyOpcje_Zapisz.png
+  artifactKey: Guid(d0b8c0c640d3f4f4b8e269150f227ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/MenuPauzyOpcje_Zapisz.png using Guid(d0b8c0c640d3f4f4b8e269150f227ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7edf5fd803a721bc68b1eccd4d8d95') in 0.053668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Images_UI/menu pause_tymczasowe.png
+  artifactKey: Guid(0e7877204d6af5f429ea13376b3be17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/menu pause_tymczasowe.png using Guid(0e7877204d6af5f429ea13376b3be17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f550e8babd276d7198437a7e06f891e2') in 0.075036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Images_UI/menu pauzy.png
+  artifactKey: Guid(6669ff5f13aaa114799fc7dc177210f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images_UI/menu pauzy.png using Guid(6669ff5f13aaa114799fc7dc177210f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638e49e7afad08c63cfc37d4eee29d16') in 0.075597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.438 seconds
+Refreshing native plugins compatible for Editor in 30.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  4.842 seconds
+Domain Reload Profiling: 6268ms
+	BeginReloadAssembly (492ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (725ms)
+		LoadAssemblies (924ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (4843ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1995ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (319ms)
+			ProcessInitializeOnLoadAttributes (1521ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 57.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4549 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (43.0 KB). Loaded Objects now: 5026.
-Memory consumption went from 150.1 MB to 150.1 MB.
-Total: 6.183200 ms (FindLiveObjects: 0.589100 ms CreateObjectMapping: 0.235000 ms MarkObjects: 5.248900 ms  DeleteObjects: 0.108900 ms)
+Unloading 52 unused Assets / (42.9 KB). Loaded Objects now: 5050.
+Memory consumption went from 149.8 MB to 149.8 MB.
+Total: 14.847100 ms (FindLiveObjects: 0.685200 ms CreateObjectMapping: 0.901400 ms MarkObjects: 13.093700 ms  DeleteObjects: 0.164900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1517.229759 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Pointers/02.png
+  artifactKey: Guid(33731fb5c578392469de3209e0eea855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Pointers/02.png using Guid(33731fb5c578392469de3209e0eea855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cbd1568eccf39f55e3365549a690d3') in 0.227227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Blue_(NoArms).png
+  artifactKey: Guid(85b7f49a31c89544287dd1bfe139be6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Blue_(NoArms).png using Guid(85b7f49a31c89544287dd1bfe139be6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a35024dcd680b7087ac44922b5f1666') in 0.126373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Pointers/05.png
+  artifactKey: Guid(028bd6f7e7222b4418e7a00a682ba75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Pointers/05.png using Guid(028bd6f7e7222b4418e7a00a682ba75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd521619b5bcacd86c1427a4a79e489') in 0.066833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Pointers/03.png
+  artifactKey: Guid(92c88930b57af9342938209d39945201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Pointers/03.png using Guid(92c88930b57af9342938209d39945201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e2b0fd7e3160cb1e7496965b015f41') in 0.064699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Pointers/04.png
+  artifactKey: Guid(0af1ceda9f3f6bb4b9800ef4d8ecb092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Pointers/04.png using Guid(0af1ceda9f3f6bb4b9800ef4d8ecb092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0c65c56343859c24cb20d619fa3ce0') in 0.063856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.890067 seconds.
+  path: Assets/Sprites/Circle.png
+  artifactKey: Guid(b5bee12bdf72fc548920723995eba982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Circle.png using Guid(b5bee12bdf72fc548920723995eba982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056c39433b38b3f26e1612d7c18934fb') in 0.052095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/leaves.png
+  artifactKey: Guid(0a361253af18b4f4bab0cf1a793533d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/leaves.png using Guid(0a361253af18b4f4bab0cf1a793533d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6112fc4b0fb84dc4f8c7d871f2d23968') in 0.061624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.860815 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.aseprite
+  artifactKey: Guid(2cfed84c972e3ab4baaa3e702ac15142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Blue/Archer_Blue.aseprite using Guid(2cfed84c972e3ab4baaa3e702ac15142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd703a0b4293d021816e15a4d6d3a8a') in 0.479711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 1.403041 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Red.png
+  artifactKey: Guid(9f6aac673304d6046a030bf8665daaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Red.png using Guid(9f6aac673304d6046a030bf8665daaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b275d47952ea5237db17a422ed311a') in 0.125100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Yellow/Archer_Yellow.aseprite
+  artifactKey: Guid(6ee6d77badf3a8a4da9a43afeb5c8e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Yellow/Archer_Yellow.aseprite using Guid(6ee6d77badf3a8a4da9a43afeb5c8e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acc598192ff8561d4ab418590272413') in 0.356612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Effects/Explosion/Explosions.png
+  artifactKey: Guid(987fcfdd2c3bfc846896fa711df3d4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Effects/Explosion/Explosions.png using Guid(987fcfdd2c3bfc846896fa711df3d4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f02a2f5e438db161217567956558ab') in 0.444649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Purple/Pawn_Purple.png
+  artifactKey: Guid(6d8047216bb7e374f8131f0fc2e06914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Purple/Pawn_Purple.png using Guid(6d8047216bb7e374f8131f0fc2e06914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef897b32129fb9ed3d243301514e85c') in 0.327638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png
+  artifactKey: Guid(c2f7559677e4ea346b06e3d7606df26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat.png using Guid(c2f7559677e4ea346b06e3d7606df26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cb003748983d29a4611d2725b51b66') in 1.044765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Up_Pressed.png
+  artifactKey: Guid(fb8d4799efc72904588dd08bc22dbd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Up_Pressed.png using Guid(fb8d4799efc72904588dd08bc22dbd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1464a7381ff2abd766c35444f9bc6f') in 0.052217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Resources/Resources/W_Idle.png
+  artifactKey: Guid(6574781bb8c79d541bc7a2de3307e805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Resources/Resources/W_Idle.png using Guid(6574781bb8c79d541bc7a2de3307e805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bde0c071c3261cb5c4be3576b8ce7b4') in 0.151358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png
+  artifactKey: Guid(156b3c18c43852a409c20765441af1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png using Guid(156b3c18c43852a409c20765441af1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829b7768dabcbbbf820e9ed617d5046f') in 0.747484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks.aseprite
+  artifactKey: Guid(09d4cb6037978a0409956e6ca24dde5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks.aseprite using Guid(09d4cb6037978a0409956e6ca24dde5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50b8b3a99ae01cc78151d14a2082ae8') in 0.317120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_3Slides.png
+  artifactKey: Guid(bdc6fde2af406b647be1f42bd7151d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_3Slides.png using Guid(bdc6fde2af406b647be1f42bd7151d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebca81ba6afed72d44d8f14b2359da2') in 0.054805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Down.png
+  artifactKey: Guid(eac18e2a26a38d74f81a06b2e16762ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Down.png using Guid(eac18e2a26a38d74f81a06b2e16762ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd96bb697cb27658a443dbdd2314dfc7') in 0.072807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks.aseprite
+  artifactKey: Guid(6800256968c1a7241b85ba143df54c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks.aseprite using Guid(6800256968c1a7241b85ba143df54c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6c38168d6ed7e1cbcc22a3ebfff668') in 0.351761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png
+  artifactKey: Guid(6378ec5737374c2409fc3059b26863df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png using Guid(6378ec5737374c2409fc3059b26863df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ef23e43015c79073f01cd76cd7ed48') in 0.724850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Right_Pressed.png
+  artifactKey: Guid(740dbfdfee151324a801110841a5ffdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Right_Pressed.png using Guid(740dbfdfee151324a801110841a5ffdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ac875665ef801a220d6cb5cfcb5f46') in 0.059670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Effects/Explosion/Explosions.aseprite
+  artifactKey: Guid(78d276a2674852b40b1f6e5648c1c811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Effects/Explosion/Explosions.aseprite using Guid(78d276a2674852b40b1f6e5648c1c811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c304f4855b7345410a73f0e8c26e1c99') in 0.119326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.aseprite
+  artifactKey: Guid(ea4f122cc65b38041af77c2a138f9cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.aseprite using Guid(ea4f122cc65b38041af77c2a138f9cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0415b5f2d1cee0ca53886f86c4dd689b') in 0.277686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png
+  artifactKey: Guid(95f9df7d1b0339141b675e5ee069bade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png using Guid(95f9df7d1b0339141b675e5ee069bade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46e57005753547c03f7d6629c90bda9') in 1.696048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 290
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png
+  artifactKey: Guid(d1ac24a7bf06c5248ae1bdbec2abb2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png using Guid(d1ac24a7bf06c5248ae1bdbec2abb2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d00c56298d4ad25143f1ed84e30b15') in 0.825020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Water/Water.png
+  artifactKey: Guid(3f1b87a8f8cf39744ba1ab7399e43c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Water/Water.png using Guid(3f1b87a8f8cf39744ba1ab7399e43c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cffd6bf5f7da7fd0e7acdb8d7987f6') in 0.110796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Purple/Archer_Purlple.aseprite
+  artifactKey: Guid(b1cfe8021cab7f74dbd4f02999eca755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Purple/Archer_Purlple.aseprite using Guid(b1cfe8021cab7f74dbd4f02999eca755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e34ead3ca1de6eeac9304218fe4a0be') in 0.538121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Down_Pressed.png
+  artifactKey: Guid(ae5c2f4ed5919ba4bba40624d1dbc05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Down_Pressed.png using Guid(ae5c2f4ed5919ba4bba40624d1dbc05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0ba2c547acf9f5b51a020f219a5718') in 0.062528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Right.png
+  artifactKey: Guid(26b635babd2debf479c26d290191eba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Right.png using Guid(26b635babd2debf479c26d290191eba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00179b51f5dbf5b06f6e200baef266ce') in 0.056345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png
+  artifactKey: Guid(033d4c968bf55e340b842cdfd32219b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_01.png using Guid(033d4c968bf55e340b842cdfd32219b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb368424ba60f747fe87ac862e9b13b') in 0.863696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 6.302520 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation1.png
+  artifactKey: Guid(37e94488c51c06a47b7fd3c74563c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation1.png using Guid(37e94488c51c06a47b7fd3c74563c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd746d38521d07c827d48f7580c62cd') in 0.059567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation12.png
+  artifactKey: Guid(a65772d7f69f39a4494883a2e6f7b593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation12.png using Guid(a65772d7f69f39a4494883a2e6f7b593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eab0d9b01538398007ea86dc1b40ea1') in 0.064073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation13.png
+  artifactKey: Guid(1475871ff8bd15440a9618f8d1f9af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation13.png using Guid(1475871ff8bd15440a9618f8d1f9af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce4d9e362e48640716af2185d7db266') in 0.072458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.aseprite
+  artifactKey: Guid(e7dfe13fc875a4c4caedac1142a7523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.aseprite using Guid(e7dfe13fc875a4c4caedac1142a7523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a842fe3359494862106164d7285efd18') in 0.220980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Yellow/TNT_Yellow.aseprite
+  artifactKey: Guid(5f6deffd77ce8c548a4e21397876e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Yellow/TNT_Yellow.aseprite using Guid(5f6deffd77ce8c548a4e21397876e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a8238e9103964681b51ecab4d942c3') in 0.233593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Purple/TNT_Purple.png
+  artifactKey: Guid(dbbf6c415fe92cb46a9d3cc8ace84003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Purple/TNT_Purple.png using Guid(dbbf6c415fe92cb46a9d3cc8ace84003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b3bbbdd439a739ca6537055dc9d13f') in 0.229144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Yellow/TNT_Yellow.aseprite
+  artifactKey: Guid(7f576de2083fbcb4fa9b4a0213872c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Yellow/TNT_Yellow.aseprite using Guid(7f576de2083fbcb4fa9b4a0213872c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcff3f312db3dd6a6e768d97db99f589') in 0.238576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.aseprite
+  artifactKey: Guid(75f901b2359f8e045a08e946f3f2af6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.aseprite using Guid(75f901b2359f8e045a08e946f3f2af6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176e263818d9d1e99565fe98b6c98ccd') in 0.311655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.png
+  artifactKey: Guid(6827d3efb1d8a854e84dc28b34ba27a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.png using Guid(6827d3efb1d8a854e84dc28b34ba27a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d19f9b5301541bbcaff94c08098468') in 0.176343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation5.png
+  artifactKey: Guid(726761e0732cce24d8bdac0674217903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation5.png using Guid(726761e0732cce24d8bdac0674217903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2002bb29b1983bbf78488de6aae23f1') in 0.074194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation14.png
+  artifactKey: Guid(8d956add9f8d7ee47a4a5d6c1ef46761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation14.png using Guid(8d956add9f8d7ee47a4a5d6c1ef46761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bd9204e19eb340018ecc3ec1b3b168') in 0.074964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.706168 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Red/TNT_Red.aseprite
+  artifactKey: Guid(e8598de0ad7d43c42a2932426e7ccd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Red/TNT_Red.aseprite using Guid(e8598de0ad7d43c42a2932426e7ccd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06ded9f8d3b1436aed5ea059ddf3b3b') in 0.258915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Red/TNT_Red.aseprite
+  artifactKey: Guid(9d86444008b641a4e914f43f118473a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Red/TNT_Red.aseprite using Guid(9d86444008b641a4e914f43f118473a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a161459ac5bb5ee483ef57bb49da59f7') in 0.260715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 2.555299 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat — kopia.png
+  artifactKey: Guid(75b6893ecff67654ebe0a3bce772e843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Flat — kopia.png using Guid(75b6893ecff67654ebe0a3bce772e843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaafc80292f47be08e72c3271bdb387') in 0.066311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.187566 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_InConstruction.png
+  artifactKey: Guid(9e88818dd90291046a1d11c43ad33604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_InConstruction.png using Guid(9e88818dd90291046a1d11c43ad33604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e6877af5cce308321618c88eddad87') in 0.059765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/tree_6.png
+  artifactKey: Guid(d85ad9ff90dd58c4fac03eca3316d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/tree_6.png using Guid(d85ad9ff90dd58c4fac03eca3316d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed62e50a02f0c245557b76445f5c854') in 0.060159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Inactive.png
+  artifactKey: Guid(dd06d32b48e59554c9d1a003dd68f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Inactive.png using Guid(dd06d32b48e59554c9d1a003dd68f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5173ec072b7fd5ca12bf50d73c0d4117') in 0.060446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Active.png
+  artifactKey: Guid(98406744829287c49ad6b7f98536a5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Active.png using Guid(98406744829287c49ad6b7f98536a5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0741ee2558639d648f00927d620982e9') in 0.060825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/tree_5.png
+  artifactKey: Guid(10e88c48aba4c4048a4211c91abb8a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/tree_5.png using Guid(10e88c48aba4c4048a4211c91abb8a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c65f59cc7be7b84b8e8e0c64e3b769') in 0.058583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png
+  artifactKey: Guid(6751cec1753015b459076011850bc0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png using Guid(6751cec1753015b459076011850bc0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acbacef83a5d18a31fd10c2c5995da4') in 0.054731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/10.png
+  artifactKey: Guid(bcd1fa3b6880ab14cae1166166cb6a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/10.png using Guid(bcd1fa3b6880ab14cae1166166cb6a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16ae6f3d8f3f51468fcf78ed200e9cf') in 0.051931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_11.png
+  artifactKey: Guid(11d71b0a3e040e142a4787a4d95cda24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_11.png using Guid(11d71b0a3e040e142a4787a4d95cda24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f293cdf24ca943bd23e7d697fb24c7b') in 0.048169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_2.png
+  artifactKey: Guid(ddff334461cd65f429e211963682e6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_2.png using Guid(ddff334461cd65f429e211963682e6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e0c0380b61e2487a6c164bee7d42c2') in 0.059861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_22.png
+  artifactKey: Guid(529e6d0a25d0d024fb95c67ee0264732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_22.png using Guid(529e6d0a25d0d024fb95c67ee0264732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f693adab3808180bb15ec08185e4bb') in 0.054477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/14.png
+  artifactKey: Guid(46b84f910f5182f40947796b33fc9876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/14.png using Guid(46b84f910f5182f40947796b33fc9876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6d5cc93fcd072b6c2db9994e026a3c') in 0.052085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_17.png
+  artifactKey: Guid(5726418204f2ddf4d9c4d524eab88fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_17.png using Guid(5726418204f2ddf4d9c4d524eab88fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d835d8d8a7ea757a16fa6bb2eb32bd') in 0.073621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_House/Goblin_House_Destroyed.png
+  artifactKey: Guid(afab5223f0daaca46bc919287a4c2ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_House/Goblin_House_Destroyed.png using Guid(afab5223f0daaca46bc919287a4c2ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ae18000b6ebb079800c571d275ed09') in 0.061016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/18.png
+  artifactKey: Guid(8a85dcf234d6e6b4ea17c3ae03f0a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/18.png using Guid(8a85dcf234d6e6b4ea17c3ae03f0a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfd0121aa0e889b86442139c9dac50a') in 0.057870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/decor_3.png
+  artifactKey: Guid(79925d8ae64ee0a48b890c2d1ee0792e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/decor_3.png using Guid(79925d8ae64ee0a48b890c2d1ee0792e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5d88d5cbba23f85d7f66f33a3cf880') in 0.061825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/08.png
+  artifactKey: Guid(d8fd6ef0e6d92f04d8bbbd22a68b07a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/08.png using Guid(d8fd6ef0e6d92f04d8bbbd22a68b07a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94458153eecfc8ae336e01be62c3c865') in 0.050524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/greenery_5.png
+  artifactKey: Guid(71834040fac75a7439804a5ebe876d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/greenery_5.png using Guid(71834040fac75a7439804a5ebe876d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64a2f2e8a598c90302345b1d3d9fe16') in 0.052712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/02.png
+  artifactKey: Guid(fa7dfc95af1b7fe46b021eb5adef11fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/02.png using Guid(fa7dfc95af1b7fe46b021eb5adef11fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d1e916446760443c607dd900f8d405') in 0.058484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/09.png
+  artifactKey: Guid(2fc0607ccf3f87f4e84720f89c1e3f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/09.png using Guid(2fc0607ccf3f87f4e84720f89c1e3f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6d7d9cbc137894653d95cf80a5ce8f') in 0.046428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_6.png
+  artifactKey: Guid(4acdbde4b8cfcb844b33d41e2a58ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_6.png using Guid(4acdbde4b8cfcb844b33d41e2a58ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48e1d62a338cbb6dc79c204a3e486ac') in 0.046260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Blue_Connection_Left_Pressed.png
+  artifactKey: Guid(a4390430bd959154893d3c082842d3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Blue_Connection_Left_Pressed.png using Guid(a4390430bd959154893d3c082842d3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72641dacf5fe2c8e9eb20f4ff0716253') in 0.058476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Blue_Connection_Right.png
+  artifactKey: Guid(b2072fcf7b924da418cef154c2f56555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Blue_Connection_Right.png using Guid(b2072fcf7b924da418cef154c2f56555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0090af275240f1ce54b657932f71abc2') in 0.051873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Yellow/Pawn_Yellow.aseprite
+  artifactKey: Guid(1ca390baa71694d4a9dfbf55a4ca6b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Yellow/Pawn_Yellow.aseprite using Guid(1ca390baa71694d4a9dfbf55a4ca6b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6843861ef72e5229c4c62495577b69ce') in 0.257459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Pressed_08.png
+  artifactKey: Guid(8ff9250b63da48b40b99f93bdcfff173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Pressed_08.png using Guid(8ff9250b63da48b40b99f93bdcfff173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3711e825c6c496cfd02a7c413731c8') in 0.058078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Pressed_07.png
+  artifactKey: Guid(a82b6c26d6999534e8540693047d9c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Pressed_07.png using Guid(a82b6c26d6999534e8540693047d9c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f85823a2f4fcce9e87d3593b2e06af') in 0.078366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Pressed_09.png
+  artifactKey: Guid(f9d95bc9b3cf993499b3ee092d3bd387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Pressed_09.png using Guid(f9d95bc9b3cf993499b3ee092d3bd387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60af18aa301483d9bd3b480b5cd3f87e') in 0.057225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_8.png
+  artifactKey: Guid(679b4bab7d1c18144b077f33a9d46e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_8.png using Guid(679b4bab7d1c18144b077f33a9d46e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834922964f8898f273ddb7159288b020') in 0.065950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_3.png
+  artifactKey: Guid(c28b944544841c2418ec2ea6f13f7b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_3.png using Guid(c28b944544841c2418ec2ea6f13f7b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7486b07d1c000e2d8b40123b8e6ef836') in 0.058849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_08.png
+  artifactKey: Guid(c1c5a7e2eee8126479c7105f931f537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_08.png using Guid(c1c5a7e2eee8126479c7105f931f537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05630071bf62981e8ea776cf2e3e0426') in 0.069837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_07.png
+  artifactKey: Guid(c968ffa6f049c11428f806e8a904d4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_07.png using Guid(c968ffa6f049c11428f806e8a904d4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b242db4c267cd438c47657944672f0c5') in 0.068507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation13.png
+  artifactKey: Guid(2a56671932253fa47b6f6a3ffaa9e3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation13.png using Guid(2a56671932253fa47b6f6a3ffaa9e3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0d05ff43d7b49892926f1d96786345') in 0.068105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_5.png
+  artifactKey: Guid(11644882ac97bf54ba94a4cc3f5b77bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_5.png using Guid(11644882ac97bf54ba94a4cc3f5b77bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f863c0a7115c64fdfe7c1fb356da63') in 0.065311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_10.png
+  artifactKey: Guid(a19b8d4184c07dd46a2d029700214d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_10.png using Guid(a19b8d4184c07dd46a2d029700214d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff3383eaefbbd398b265555b7a3cacf') in 0.072628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_20.png
+  artifactKey: Guid(3082948252b216f4c87d87b7ec2742bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_20.png using Guid(3082948252b216f4c87d87b7ec2742bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9be78f0b8f3addbab0b52786e36449e') in 0.072247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_13.png
+  artifactKey: Guid(bc80f4ac1313f5943969c089ecac08df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_13.png using Guid(bc80f4ac1313f5943969c089ecac08df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d6972d87a1c4401a0f9ca09c94548f') in 0.064555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/03.png
+  artifactKey: Guid(ccd8bd50f43fc6545bb327b42529d53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/03.png using Guid(ccd8bd50f43fc6545bb327b42529d53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630cfec265b8e9ba128ad783df2f2f1f') in 0.061079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_09.png
+  artifactKey: Guid(0014f879ce5175645a620f3dde14ec24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_09.png using Guid(0014f879ce5175645a620f3dde14ec24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c8aa9c26522bd7ec1ab4d20d4aae61') in 0.107115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_25.png
+  artifactKey: Guid(bc722107f0a23a34285f3fe387b48b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_25.png using Guid(bc722107f0a23a34285f3fe387b48b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101e285a665480c2b0e8eec1cf5fed44') in 0.063014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/02.png
+  artifactKey: Guid(642e0802c1884f645b73af07aef79a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/02.png using Guid(642e0802c1884f645b73af07aef79a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d401245a83bf60eeb4514e86b5bf6d9') in 0.060097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/tree_10.png
+  artifactKey: Guid(6f5afb59b5e196b4291cd7684ad55aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/tree_10.png using Guid(6f5afb59b5e196b4291cd7684ad55aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff9d749ad27cc1713ca75504f0dfe0a') in 0.068145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation12.png
+  artifactKey: Guid(e9f8865bd20724a4b908c4e0bd82d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation12.png using Guid(e9f8865bd20724a4b908c4e0bd82d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea36905c1ad221e0bb5d39daa8963f44') in 0.060721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Left_Pressed.png
+  artifactKey: Guid(2fba9aadd2851ca4e90e46c61204af68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Left_Pressed.png using Guid(2fba9aadd2851ca4e90e46c61204af68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb890b3b780ecce60bbe8eb7c8af5ba') in 0.059072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/04.png
+  artifactKey: Guid(4b87ecd0ab179324ab9466deccdc8789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/04.png using Guid(4b87ecd0ab179324ab9466deccdc8789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7db8ffc0e0197d4dcafc802c696f473') in 0.055579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/15.png
+  artifactKey: Guid(4d1221d16f67c644bbf7706572965709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/15.png using Guid(4d1221d16f67c644bbf7706572965709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d26096e10aaaf426328c514cce4d157') in 0.055513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/07.png
+  artifactKey: Guid(50f255711cc48d343b88d61520b2fde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/07.png using Guid(50f255711cc48d343b88d61520b2fde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb1572b3a97e64259815f3ec185e800') in 0.054113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_16.png
+  artifactKey: Guid(6afc9d3ef52c9b64aa4a6d4cacee848f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_16.png using Guid(6afc9d3ef52c9b64aa4a6d4cacee848f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29da4f3de02619627efb286e735e8172') in 0.053375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_1.png
+  artifactKey: Guid(d2f16629d17fd2e4e86b2b3b822456bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_1.png using Guid(d2f16629d17fd2e4e86b2b3b822456bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637b3773625b93626b8ebc2a01b9eee4') in 0.054770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/decor_2.png
+  artifactKey: Guid(cab73dfa1ea9b74469f792f4418f8e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/decor_2.png using Guid(cab73dfa1ea9b74469f792f4418f8e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdde5c74c22adbb096fb2ee0d4db409') in 0.062584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/House_Yellow.png
+  artifactKey: Guid(532e5a50efe33084baaf35c4db75d93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/House_Yellow.png using Guid(532e5a50efe33084baaf35c4db75d93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7db305f1140fac9cd5de769df14f3d3') in 0.052686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/House_Yellow.png
+  artifactKey: Guid(15b721fc0c90b724ab9d1bd803502227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/House_Yellow.png using Guid(15b721fc0c90b724ab9d1bd803502227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93eba157525292b5c2831390d8dcfe7') in 0.058318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/16.png
+  artifactKey: Guid(fd59104fb4a9e604783fe4bcc8585e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/16.png using Guid(fd59104fb4a9e604783fe4bcc8585e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c6dbd7e21aabb53febecae6365e9f9') in 0.056720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_23.png
+  artifactKey: Guid(dc86c11428994a3489b8898559f2b7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_23.png using Guid(dc86c11428994a3489b8898559f2b7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3656426dbd6659e84d32730da45c7a') in 0.056040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Resources/Resources/Resources.aseprite
+  artifactKey: Guid(30595d1d241e4654e9c8589b0ab4514f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Resources/Resources/Resources.aseprite using Guid(30595d1d241e4654e9c8589b0ab4514f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5d39048ce25804c6d1fcfad1eaf648') in 0.241422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation7.png
+  artifactKey: Guid(3b0f79116cc5fe840b00201dcbba1658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation7.png using Guid(3b0f79116cc5fe840b00201dcbba1658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bbf8ae94b449d971ad550abab75551') in 0.064594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_House/Goblin_House.png
+  artifactKey: Guid(5446cf4452c20c34e96dead685a4200d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_House/Goblin_House.png using Guid(5446cf4452c20c34e96dead685a4200d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7285cd342c3a10dda6fb8d8dbcfb37eb') in 0.061577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Down_Pressed.png
+  artifactKey: Guid(ab3f92e9c2689ef41b0b5a7ecac0484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Down_Pressed.png using Guid(ab3f92e9c2689ef41b0b5a7ecac0484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a86e6b9c320a3440a45799ad21042a') in 0.059363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_03.png
+  artifactKey: Guid(d4d96e4639c40fb4abc09a92f4b195cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_03.png using Guid(d4d96e4639c40fb4abc09a92f4b195cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b82335353efbd0099e53eeda750392') in 0.084324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/lake.png
+  artifactKey: Guid(1851b22a1dccd4c4a935fa48f53957ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/lake.png using Guid(1851b22a1dccd4c4a935fa48f53957ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd155546e900d174f80db8e5ee13a9b18') in 0.068861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/building_2.png
+  artifactKey: Guid(cb731f97dceb69f479e6b0d08e1ec388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/building_2.png using Guid(cb731f97dceb69f479e6b0d08e1ec388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7020ea20b705003ef576c4634c8380bd') in 0.064455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_7.png
+  artifactKey: Guid(6b7f158b41e36ea49ae19923f71e6efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_7.png using Guid(6b7f158b41e36ea49ae19923f71e6efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ec776970bef6fd49db5e9c5503d209') in 0.064111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_24.png
+  artifactKey: Guid(94a89f33e8c45bd4a877f1ecc02ec9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_24.png using Guid(94a89f33e8c45bd4a877f1ecc02ec9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b48244b79b8200480aaedae2bb17832') in 0.062977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/17.png
+  artifactKey: Guid(6a30e0413e4067744afecf677c6a23e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/17.png using Guid(6a30e0413e4067744afecf677c6a23e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a5787558215936a9fdf77fbcdd0263') in 0.061721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_4.png
+  artifactKey: Guid(5d403373e67e78446a14588509209fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/stones_4.png using Guid(5d403373e67e78446a14588509209fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897f7b5c5fbe20be7fc2f9adfe6a674b') in 0.066113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/01.png
+  artifactKey: Guid(34bce4d30a741b947ac922468928e4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/01.png using Guid(34bce4d30a741b947ac922468928e4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564dfd81fb7edaac8c2db050dbd658a6') in 0.064827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation21.png
+  artifactKey: Guid(0d462951adb856948ab9b40926ae07ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation21.png using Guid(0d462951adb856948ab9b40926ae07ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2433b00eca159353bb31e5af49a54f') in 0.059555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Destroyed.png
+  artifactKey: Guid(3d5ce7ac029b4174d8530a9be4d85d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Destroyed.png using Guid(3d5ce7ac029b4174d8530a9be4d85d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f849ff099ca3b0b4103820495781fbb') in 0.061830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_18.png
+  artifactKey: Guid(b8e99df5d506b024aaeba4ef7be2faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_18.png using Guid(b8e99df5d506b024aaeba4ef7be2faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52598908c29ba8bf206ec8a6566ebbba') in 0.062009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Right_Pressed.png
+  artifactKey: Guid(50a2417c72d42a84abe1f022f2b8b7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Right_Pressed.png using Guid(50a2417c72d42a84abe1f022f2b8b7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d2931413e5efc3e404a586dfdb1e0a') in 0.063321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/01.png
+  artifactKey: Guid(c1f5a4e6f92ef2b4491507ed8e269542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/01.png using Guid(c1f5a4e6f92ef2b4491507ed8e269542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4880bf880cf23c9be8c13ea56391b1') in 0.059943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation22.png
+  artifactKey: Guid(c804c61f877552041a9a1538ecda4c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation22.png using Guid(c804c61f877552041a9a1538ecda4c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bc2ea3a77af08f678cdce7e053b1a4') in 0.062310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/13.png
+  artifactKey: Guid(f9211f4f3a18f514fa951fe555ce4488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/13.png using Guid(f9211f4f3a18f514fa951fe555ce4488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3dd91ea923d2c732c4a9df2eb3ba40') in 0.061891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation3.png
+  artifactKey: Guid(3fa5ff7acbb762a488e529b6ea0402a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation3.png using Guid(3fa5ff7acbb762a488e529b6ea0402a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc9be2a5934227f06ba332c7d1b5543') in 0.064989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Up_Pressed.png
+  artifactKey: Guid(3e021f1352863c645aac215fce149458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Up_Pressed.png using Guid(3e021f1352863c645aac215fce149458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab107570112ca678035c78b7c11b4181') in 0.061469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_02.png
+  artifactKey: Guid(4704c140252e7654c8de3ef6b1bafc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Regular_02.png using Guid(4704c140252e7654c8de3ef6b1bafc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86f4e33af695fcf203bc408c465230b') in 0.060659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/06.png
+  artifactKey: Guid(f971f7d654ee9194e8bff93f74ca6a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/06.png using Guid(f971f7d654ee9194e8bff93f74ca6a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2703b8d70bc670dd36bffd3b24249605') in 0.059069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_House/Goblin_House.png
+  artifactKey: Guid(2fda4ee87626ba344a615e5bb992f690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_House/Goblin_House.png using Guid(2fda4ee87626ba344a615e5bb992f690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f856a8ba4df6ef560f5ef1d12719f6c') in 0.064608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png
+  artifactKey: Guid(32e1e2dd6e6201b49886e847aeee7e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Terrain/Ground/Shadows.png using Guid(32e1e2dd6e6201b49886e847aeee7e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2771d4028c416fc8f25e641118ae0304') in 0.062458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_12.png
+  artifactKey: Guid(6b88b773810ee0947b68ed773858e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_12.png using Guid(6b88b773810ee0947b68ed773858e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ecd70253d1519066f9fa32fbaad1b8') in 0.067924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Pressed_10.png
+  artifactKey: Guid(24d08f33431374f4d8828913a4bf04f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Icons/Pressed_10.png using Guid(24d08f33431374f4d8828913a4bf04f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fad03bbde079502a6ecbe961ccbb8d4') in 0.073931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_19.png
+  artifactKey: Guid(b612758bf6715c342bdc24b120ff2c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/free-2d-rpg-desert-tileset/PNG/road_19.png using Guid(b612758bf6715c342bdc24b120ff2c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293d8cb3759d6608082c9469036e8b96') in 0.071640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_3Slides.png
+  artifactKey: Guid(73d42909d5445e64588b7c3729269e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_3Slides.png using Guid(73d42909d5445e64588b7c3729269e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150e208fb171c29b6d2f9baaec749939') in 0.074798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/05.png
+  artifactKey: Guid(143498ab5b8b3ed47b4219dee23650f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/Deco/05.png using Guid(143498ab5b8b3ed47b4219dee23650f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedd1bdfa523769b79a3a2d8c6bf45eb') in 0.073590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Up.png
+  artifactKey: Guid(aa80090c2a1cbfb48abc4c64993e1281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka-las/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Up.png using Guid(aa80090c2a1cbfb48abc4c64993e1281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2707245457534c9ea83550ecd9ab50') in 0.077104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/10.png
+  artifactKey: Guid(ce8d426e6d6f2ee44b54dc0fdafaec20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapka-las/mapka_pustynia/Tiny Swords (Update 010)/Deco/10.png using Guid(ce8d426e6d6f2ee44b54dc0fdafaec20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7fe8fef8936b74243e7033ad1052a0') in 0.078959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.467 seconds
+Refreshing native plugins compatible for Editor in 29.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  5.879 seconds
+Domain Reload Profiling: 7326ms
+	BeginReloadAssembly (491ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (105ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (745ms)
+		LoadAssemblies (999ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (5881ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3081ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (23ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (469ms)
+			ProcessInitializeOnLoadAttributes (2368ms)
+			ProcessInitializeOnLoadMethodAttributes (172ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (92ms)
+Refreshing native plugins compatible for Editor in 67.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4549 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (43.1 KB). Loaded Objects now: 5539.
+Memory consumption went from 151.5 MB to 151.5 MB.
+Total: 19.236400 ms (FindLiveObjects: 1.383100 ms CreateObjectMapping: 1.831200 ms MarkObjects: 15.816300 ms  DeleteObjects: 0.202400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.384 seconds
+Refreshing native plugins compatible for Editor in 28.07 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  8.582 seconds
+Domain Reload Profiling: 9957ms
+	BeginReloadAssembly (527ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (653ms)
+		LoadAssemblies (952ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (8585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (30ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (652ms)
+			ProcessInitializeOnLoadAttributes (4424ms)
+			ProcessInitializeOnLoadMethodAttributes (286ms)
+			AfterProcessingInitializeOnLoad (38ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (143ms)
+Refreshing native plugins compatible for Editor in 83.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4550 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (43.1 KB). Loaded Objects now: 5543.
+Memory consumption went from 151.8 MB to 151.7 MB.
+Total: 17.666300 ms (FindLiveObjects: 0.968500 ms CreateObjectMapping: 0.895800 ms MarkObjects: 15.456000 ms  DeleteObjects: 0.343000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.735 seconds
+Refreshing native plugins compatible for Editor in 47.86 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 10.148 seconds
+Domain Reload Profiling: 11868ms
+	BeginReloadAssembly (560ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (121ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (901ms)
+		LoadAssemblies (1195ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (10150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5142ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (107ms)
+			SetLoadedEditorAssemblies (74ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (999ms)
+			ProcessInitializeOnLoadAttributes (3653ms)
+			ProcessInitializeOnLoadMethodAttributes (272ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (125ms)
+Refreshing native plugins compatible for Editor in 81.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4550 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (43.2 KB). Loaded Objects now: 5547.
+Memory consumption went from 151.8 MB to 151.7 MB.
+Total: 22.033400 ms (FindLiveObjects: 1.413000 ms CreateObjectMapping: 2.449700 ms MarkObjects: 17.693300 ms  DeleteObjects: 0.473900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.334 seconds
+Refreshing native plugins compatible for Editor in 28.01 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.684 seconds
+Domain Reload Profiling: 5009ms
+	BeginReloadAssembly (435ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (693ms)
+		LoadAssemblies (930ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (3685ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1834ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (239ms)
+			ProcessInitializeOnLoadAttributes (1482ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Refreshing native plugins compatible for Editor in 35.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4550 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (43.2 KB). Loaded Objects now: 5551.
+Memory consumption went from 151.8 MB to 151.7 MB.
+Total: 11.722200 ms (FindLiveObjects: 0.854000 ms CreateObjectMapping: 0.761400 ms MarkObjects: 9.950400 ms  DeleteObjects: 0.154200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.915 seconds
+Refreshing native plugins compatible for Editor in 44.14 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  7.366 seconds
+Domain Reload Profiling: 9265ms
+	BeginReloadAssembly (679ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (146ms)
+	RebuildCommonClasses (127ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (941ms)
+		LoadAssemblies (1286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (7369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4124ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (25ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (443ms)
+			ProcessInitializeOnLoadAttributes (3342ms)
+			ProcessInitializeOnLoadMethodAttributes (255ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (124ms)
+Refreshing native plugins compatible for Editor in 273.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4550 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (43.2 KB). Loaded Objects now: 5555.
+Memory consumption went from 151.8 MB to 151.7 MB.
+Total: 69.455600 ms (FindLiveObjects: 9.911800 ms CreateObjectMapping: 3.070000 ms MarkObjects: 55.942400 ms  DeleteObjects: 0.527600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
