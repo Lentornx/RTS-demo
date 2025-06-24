@@ -199,7 +199,7 @@ MonoBehaviour:
   moveSpeed: 3
   attackRange: 1
   attackCooldown: 1
-  attackDamage: 10
+  attackDamage: 5
   faction: Neutral
   maxHealth: 50
   aiEnabled: 1

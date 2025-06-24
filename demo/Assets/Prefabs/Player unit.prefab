@@ -197,7 +197,7 @@ MonoBehaviour:
   selectedColor: {r: 0, g: 1, b: 0, a: 1}
   healthBarPrefab: {fileID: 2337732211236433134, guid: 8b8f4f63dc4fa2c48968a236f9fc60e3, type: 3}
   moveSpeed: 3
-  attackRange: 1.5
+  attackRange: 1
   attackCooldown: 1
   attackDamage: 10
   faction: Player

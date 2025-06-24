@@ -34,7 +34,7 @@ public class ResourceProducer : MonoBehaviour
             {
                 GameObject building = this.gameObject;
                 CircleCollider2D circleCollider2D = building.GetComponent<CircleCollider2D>();
-                Collider2D[] colliders = Physics2D.OverlapCircleAll(building.transform.position, circleCollider2D.radius, LayerMask.GetMask("Unbuildable"));
+                Collider2D[] colliders = Physics2D.OverlapCircleAll(building.transform.position, circleCollider2D.radius, LayerMask.GetMask("Units"));
 
                 foreach (Collider2D c in colliders)
                 {

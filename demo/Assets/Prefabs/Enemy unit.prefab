@@ -194,6 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcb4fdb65f7b3f9419965d9228a330df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerBase: {fileID: 0}
   selectedColor: {r: 0, g: 1, b: 0, a: 1}
   healthBarPrefab: {fileID: 2337732211236433134, guid: 8b8f4f63dc4fa2c48968a236f9fc60e3, type: 3}
   moveSpeed: 3
@@ -203,5 +204,5 @@ MonoBehaviour:
   faction: Enemy
   maxHealth: 50
   aiEnabled: 1
-  detectionRange: 4.5
-  spawnDesiredProximity: 3
+  detectionRange: 6
+  spawnDesiredProximity: 2

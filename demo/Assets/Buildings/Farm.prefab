@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8012221915740165298}
   - component: {fileID: 4475323962879750345}
   - component: {fileID: -7884311998143889199}
+  - component: {fileID: 1969010265492841468}
   m_Layer: 0
   m_Name: Farm
   m_TagString: Building
@@ -77,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0a361253af18b4f4bab0cf1a793533d3, type: 3}
+  m_Sprite: {fileID: 4764987341452958515, guid: cbad0772ca3a7a7489dccdcd188ff85a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -151,7 +152,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.28}
+    oldSize: {x: 1.1, y: 1.5}
     newSize: {x: 5.12, y: 5.12}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -211,3 +212,19 @@ MonoBehaviour:
   resourceName: wood
   resourceAmountPerSecond: 2
   resourceManager: {fileID: 0}
+  placementSystem: {fileID: 0}
+--- !u!114 &1969010265492841468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2332643341608606574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0ae3dd90281f64ba7215fff6803cf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 15
+  healthBarPrefab: {fileID: 2337732211236433134, guid: 8b8f4f63dc4fa2c48968a236f9fc60e3, type: 3}
+  faction: Player

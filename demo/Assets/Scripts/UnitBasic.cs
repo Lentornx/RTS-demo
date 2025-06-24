@@ -52,6 +52,7 @@ public class UnitBasic : MonoBehaviour
         defaultColor = spriteRenderer.color;
         seeker = GetComponent<Seeker>();
         animator = GetComponent<Animator>();
+        MoveTo(transform.position); // to avoid unit stacking upon spawn
 
         // logic
         if (aiEnabled)
@@ -132,6 +133,7 @@ public class UnitBasic : MonoBehaviour
         {
             if (hit.gameObject == this.gameObject) continue;
 
+
             UnitBasic other = hit.GetComponent<UnitBasic>();
             if (other != null && other.faction != this.faction)
             {
@@ -145,7 +147,27 @@ public class UnitBasic : MonoBehaviour
                 Stop(); // Stop when attacking
                 other.TakeDamage(attackDamage);
                 lastAttackTime = Time.time;
+                Stop();
                 break;
+            }
+            else if (other == null) // later zlacze te dwie rzeczy as it should be, this but a temporary fix
+            {
+                healthSystem building = hit.GetComponent<healthSystem>();
+                if (building != null && building.faction != this.faction)
+                  {  
+                    // attack
+                    int attackCount = 2; // Total number of attack animations
+                    int randomIndex = Random.Range(1, attackCount + 1);
+
+                    animator.SetInteger("attackIndex", randomIndex);
+                    animator.SetTrigger("attackTrigger");
+
+                    Stop(); // Stop when attacking
+                    building.TakeDamage(attackDamage);
+                    lastAttackTime = Time.time;
+                    Stop();
+                    break;
+                }
             }
         }
     }
@@ -232,6 +254,8 @@ public class UnitBasic : MonoBehaviour
     {
         while (true)
         {
+            if (Time.time % 90 > 80)
+                spawnPoint = new Vector2(30, -50);
             if (enemy_target == null)
             {
                 Idle();

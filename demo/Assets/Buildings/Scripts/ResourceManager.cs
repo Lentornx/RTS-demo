@@ -5,7 +5,7 @@ using UnityEngine;
 public class ResourceManager : MonoBehaviour
 {
 
-    private int wood = 50;
+    public int wood = 50;
     
     void Start()
     {

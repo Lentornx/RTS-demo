@@ -268,7 +268,6 @@ GameObject:
   - component: {fileID: 4659866620583905466}
   - component: {fileID: 5503490352608449540}
   - component: {fileID: 4419992389360379872}
-  - component: {fileID: 4320457077560823708}
   m_Layer: 5
   m_Name: buildbutton_id1
   m_TagString: Untagged
@@ -388,20 +387,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4320457077560823708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 376809343793531403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7c2dfe9a81dfc9499992ec4975154ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placement: {fileID: 0}
-  ID: 1
 --- !u!1 &497003656475638307
 GameObject:
   m_ObjectHideFlags: 0

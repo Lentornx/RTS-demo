@@ -7,6 +7,7 @@ using UnityEngine;
 public class UnitFactory : MonoBehaviour
 {
     private GameObject building;
+    public Sprite unitProducingSprite;
     [SerializeField] private TouchManager touchManager;
 
     [SerializeField] private UnitDatabase database;
@@ -62,7 +63,9 @@ public class UnitFactory : MonoBehaviour
                     {
                         producingMode = true;
                         building = hit.collider.gameObject;
-                        unitbutton.SetActive(true);
+                        SpriteRenderer sr = building.GetComponent<SpriteRenderer>(); // tutaj wstawiam tymczasowa nalepke by nie pokazywalo guzika unit factory przy farmie itp
+                        if (sr.sprite == unitProducingSprite) 
+                            unitbutton.SetActive(true);
                     }
                 }
                 else
